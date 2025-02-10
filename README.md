@@ -20,6 +20,19 @@
   <a href="https://starterdocs.js.org"> 📑 Files & Functions Docs (starterdocs.js.org)</a>
 </h3>
 
+## 🌏  Open in the Cloud 
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase without having to install anything on your machine:
+
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/vtempest/Serverless-DOCS-Stack)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/vtempest/Serverless-DOCS-Stack)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vtempest/Serverless-DOCS-Stack)
+[![Edit in Codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/vtempest/Serverless-DOCS-Stack)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vtempest/Serverless-DOCS-Stack)
+[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/vtempest/Serverless-DOCS-Stack)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/vtempest/Serverless-DOCS-Stack)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vtempest/Serverless-DOCS-Stack)
+
+
 ### ⚒️ Svelte Serverless Starter DOCS: Drizzle OAuth Cloudflare Svelte
 
 📚 [Drizzle ORM](https://orm.drizzle.team/kit-docs/quick) - lightweight ORM compatible with Cloudflare D1 and drizzle-kit to manage schema migrations
