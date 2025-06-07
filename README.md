@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="350px" src="https://i.imgur.com/6r83blS.png">
+    <img width="350px" src="https://i.imgur.com/jehI6lv.png">
 </p>
 <p align="center">
     <a href="https://github.com/vtempest/Svelte-Starter-DOCS/discussions">
@@ -80,3 +80,4 @@ Change Drizzle setup to connect to any db like Supabase, and add popular platfor
 23.  
 
 ![logo2](https://i.imgur.com/PE4kQWy.png)
+![logo2](https://i.imgur.com/6r83blS.png)
