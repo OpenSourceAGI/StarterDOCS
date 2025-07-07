@@ -146,6 +146,11 @@
               "sidebar": "default"
             },
             {
+              "id": "research/language-intelligence",
+              "path": "/research/language-intelligence",
+              "sidebar": "default"
+            },
+            {
               "id": "research/nextjs-tools",
               "path": "/research/nextjs-tools",
               "sidebar": "default"
@@ -156,6 +161,11 @@
               "sidebar": "default"
             },
             {
+              "id": "research/sms_api_comparison",
+              "path": "/research/sms_api_comparison",
+              "sidebar": "default"
+            },
+            {
               "id": "research/sveltekit_vs_nextjs_comparison",
               "path": "/research/sveltekit_vs_nextjs_comparison",
               "sidebar": "default"
@@ -163,6 +173,16 @@
             {
               "id": "research/Top Dev Tools",
               "path": "/research/Top Dev Tools",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Voice Agent API",
+              "path": "/research/Voice Agent API",
+              "sidebar": "default"
+            },
+            {
+              "id": "setup/Server Shell Setup",
+              "path": "/setup/Server Shell Setup",
               "sidebar": "default"
             }
           ],
@@ -183,8 +203,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1751889246589.json",
-        "lunrIndex": "lunr-index-1751889246589.json"
+        "searchDoc": "search-doc-1751895321797.json",
+        "lunrIndex": "lunr-index-1751895321797.json"
       }
     }
   }

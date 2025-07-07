@@ -1,0 +1,24 @@
+{
+  "id": "functions/index",
+  "title": "index",
+  "description": "10 Understandings, 10 Rights, 10 Problems of Conscious Life",
+  "source": "@site/src/functions/index.md",
+  "sourceDirName": "functions",
+  "slug": "/functions/",
+  "permalink": "/functions/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Understandings",
+    "permalink": "/functions/Sections/Understandings"
+  },
+  "next": {
+    "title": "modules",
+    "permalink": "/functions/modules"
+  }
+}

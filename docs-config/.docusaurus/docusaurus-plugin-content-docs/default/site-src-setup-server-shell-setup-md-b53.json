@@ -1,0 +1,20 @@
+{
+  "id": "setup/Server Shell Setup",
+  "title": "Server Shell Setup",
+  "description": "<img alt=\"GitHub Discussions\"",
+  "source": "@site/src/setup/Server Shell Setup.md",
+  "sourceDirName": "setup",
+  "slug": "/setup/Server Shell Setup",
+  "permalink": "/setup/Server Shell Setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/setup/Server Shell Setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
+    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+  }
+}

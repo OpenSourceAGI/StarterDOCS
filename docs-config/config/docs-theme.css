@@ -1,7 +1,8 @@
 /**
- * Fixed Ultra-Enhanced Docusaurus Theme with Beige & Slate Palette
- * Fixed: sidebar positioning, code block contrast, layout issues
- * @author Enhanced by AI Assistant (2024)
+ * Docusaurus OpenAPI Elegant Beige (with Effects) Theme
+ * Featuring a sophisticated beige-based light theme
+ * with sleek design elements and frosted-glass navbar.
+ * @author [vtempest (2025)](https://github.com/vtempest) 
  */
 
 /* Import Google Fonts - Inter for body, Plus Jakarta Sans for headings */
@@ -377,7 +378,9 @@ code, pre {
 
 .menu__link--active {
   background: linear-gradient(135deg, var(--ifm-color-primary), var(--color-secondary));
-  color: white;
+  color: #ffffff !important; /* Bright white text for maximum contrast */
+  font-weight: 600 !important; /* Make text bolder */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important; /* Add text shadow for better readability */
   position: relative;
   animation: activePulse 2s ease-in-out infinite;
   transform: translateX(4px);
@@ -393,6 +396,13 @@ code, pre {
   background: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0.7));
   border-radius: 0 2px 2px 0;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Dark mode active link - ensure good contrast */
+[data-theme='dark'] .menu__link--active {
+  color: #ffffff !important; /* Keep white text for dark mode */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important; /* Stronger shadow for dark mode */
+  font-weight: 600 !important;
 }
 
 /* Override text decoration globally */
@@ -641,8 +651,70 @@ a:any-link:hover {
   border: 1px solid var(--glass-border);
   position: relative;
   overflow: hidden;
-  background-color: var(--prism-background-color) !important;
-  color: var(--prism-color) !important;
+  background-color: #fdfdf9 !important; /* Light background */
+  color: #2d3748 !important; /* Dark text for contrast */
+  padding: 1rem !important; /* Reduced padding */
+}
+
+/* Fix copy button visibility */
+.prism-code + button,
+.prism-code ~ button,
+[class*="copyButton"] {
+  background-color: rgba(139, 115, 85, 0.1) !important;
+  border: 1px solid rgba(139, 115, 85, 0.2) !important;
+  color: #2d3748 !important;
+  border-radius: var(--radius-md) !important;
+  padding: 0.5rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.prism-code + button:hover,
+.prism-code ~ button:hover,
+[class*="copyButton"]:hover {
+  background-color: rgba(139, 115, 85, 0.2) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Copy button success state - green checkmark */
+.prism-code + button[data-copied="true"],
+.prism-code ~ button[data-copied="true"],
+[class*="copyButton"][data-copied="true"] {
+  background-color: rgba(34, 197, 94, 0.2) !important; /* Green background */
+  border-color: rgba(34, 197, 94, 0.4) !important;
+  color: #16a34a !important; /* Green text */
+}
+
+.prism-code + button[data-copied="true"]::before,
+.prism-code ~ button[data-copied="true"]::before,
+[class*="copyButton"][data-copied="true"]::before {
+  content: "✓" !important; /* Checkmark */
+  margin-right: 0.25rem !important;
+  font-weight: bold !important;
+}
+
+/* Dark mode copy button */
+[data-theme='dark'] .prism-code + button,
+[data-theme='dark'] .prism-code ~ button,
+[data-theme='dark'] [class*="copyButton"] {
+  background-color: rgba(186, 162, 142, 0.15) !important;
+  border: 1px solid rgba(186, 162, 142, 0.3) !important;
+  color: #e2e8f0 !important;
+}
+
+[data-theme='dark'] .prism-code + button:hover,
+[data-theme='dark'] .prism-code ~ button:hover,
+[data-theme='dark'] [class*="copyButton"]:hover {
+  background-color: rgba(186, 162, 142, 0.25) !important;
+}
+
+/* Dark mode copy button success state */
+[data-theme='dark'] .prism-code + button[data-copied="true"],
+[data-theme='dark'] .prism-code ~ button[data-copied="true"],
+[data-theme='dark'] [class*="copyButton"][data-copied="true"] {
+  background-color: rgba(34, 197, 94, 0.3) !important; /* Green background */
+  border-color: rgba(34, 197, 94, 0.5) !important;
+  color: #4ade80 !important; /* Light green text */
 }
 
 /* Code syntax highlighting with proper contrast */
@@ -738,6 +810,8 @@ code:not([class*="language-"]) {
 }
 
 [data-theme='dark'] .prism-code {
+  background-color: #1e293b !important; /* Dark background for dark mode */
+  color: #e2e8f0 !important; /* Light text for dark mode */
   border: 1px solid rgba(148, 163, 184, 0.1);
 }
 
@@ -1072,4 +1146,136 @@ img:hover {
 /* Ensure smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* FIXED: Mobile responsiveness for sidebar */
+@media (max-width: 996px) {
+  /* Ensure navbar is properly positioned */
+  .navbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1000 !important;
+    height: 60px !important;
+  }
+  
+  /* Add padding to body to account for fixed navbar */
+  body {
+    padding-top: 60px !important;
+  }
+  
+  /* Fix sidebar positioning on mobile */
+  .theme-doc-sidebar-container {
+    position: fixed !important;
+    top: 60px !important; /* Position below navbar */
+    left: 0 !important;
+    width: 100% !important;
+    height: calc(100vh - 60px) !important;
+    z-index: 999 !important;
+    transform: translateX(-100%) !important;
+    transition: transform 0.3s ease !important;
+    background: var(--glass-bg) !important;
+    backdrop-filter: var(--glass-blur) !important;
+    -webkit-backdrop-filter: var(--glass-blur) !important;
+    border-right: 1px solid var(--glass-border) !important;
+    overflow: hidden !important;
+  }
+  
+  /* Show sidebar when open */
+  .theme-doc-sidebar-container[data-sidebar-open="true"] {
+    transform: translateX(0) !important;
+  }
+  
+  /* Ensure main content takes full width on mobile */
+  .theme-doc-main {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  
+  .theme-doc-main-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .theme-doc-markdown {
+    padding: 1rem !important;
+    max-width: 100% !important;
+  }
+  
+  /* Dark mode mobile sidebar */
+  [data-theme='dark'] .theme-doc-sidebar-container {
+    background: rgba(30, 41, 59, 0.95) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.1) !important;
+  }
+}
+
+/* FIXED: Ensure proper layout structure */
+html {
+  scroll-padding-top: 60px !important;
+}
+
+/* FIXED: Main layout container */
+.main-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: calc(100vh - 60px) !important;
+}
+
+/* FIXED: Document layout */
+.docusaurus-wrapper {
+  display: flex !important;
+  flex: 1 !important;
+  min-height: calc(100vh - 60px) !important;
+}
+
+/* FIXED: Sidebar positioning - desktop */
+@media (min-width: 997px) {
+  .theme-doc-sidebar-container {
+    position: relative !important;
+    z-index: 100 !important;
+    width: 300px !important;
+    flex-shrink: 0 !important;
+    background: var(--glass-bg) !important;
+    backdrop-filter: var(--glass-blur) !important;
+    -webkit-backdrop-filter: var(--glass-blur) !important;
+    border-right: 1px solid var(--glass-border) !important;
+    height: calc(100vh - 60px) !important;
+    overflow: hidden !important;
+  }
+  
+  .theme-doc-sidebar {
+    position: sticky !important;
+    top: 0 !important;
+    height: 100% !important;
+    padding: 1rem 0 !important;
+  }
+  
+  [data-theme='dark'] .theme-doc-sidebar-container {
+    background: rgba(30, 41, 59, 0.85) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.1) !important;
+  }
+  
+  /* FIXED: Main content area - desktop */
+  .theme-doc-main {
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow-x: hidden !important;
+  }
+  
+  .theme-doc-main-container {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .theme-doc-markdown {
+    padding: 2rem !important;
+    max-width: 100% !important;
+  }
 }

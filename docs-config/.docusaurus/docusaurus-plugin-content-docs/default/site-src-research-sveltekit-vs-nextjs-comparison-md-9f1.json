@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "Best Next.js Tools & Resources",
-    "permalink": "/research/nextjs-tools"
+    "title": "📱 Phone SMS Verification",
+    "permalink": "/research/sms_api_comparison"
+  },
+  "next": {
+    "title": "Server Shell Setup",
+    "permalink": "/setup/Server Shell Setup"
   }
 }

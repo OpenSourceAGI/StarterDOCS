@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Sections/Understandings",
+  "title": "Understandings",
+  "description": "Documentation / Sections/Understandings",
+  "source": "@site/src/functions/functions/Sections/Understandings.md",
+  "sourceDirName": "functions/functions/Sections",
+  "slug": "/functions/functions/Sections/Understandings",
+  "permalink": "/functions/functions/Sections/Understandings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Sections/Understandings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Rights",
+    "permalink": "/functions/functions/Sections/Rights"
+  },
+  "next": {
+    "title": "modules",
+    "permalink": "/functions/functions/modules"
+  }
+}

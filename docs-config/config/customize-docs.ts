@@ -1,6 +1,6 @@
 import type { APIDocsConfig } from "../docusaurus.config";
 export default {
-  name: "svelte-starter-docs",
+  name: "StarterDOCS",
   domain: "https://starterdocs.js.org",
   typedocFolders: [
     {
@@ -24,7 +24,7 @@ export default {
   baseFolder: "./",
   logo: "/apple-touch-icon.png",
   favicon: "/favicon.ico",
-  enableFasterBuildV4: 1,
+  enableFasterBuildV4: true,
   enableReadmeAsHome: true,
   usePathSlashDocs: false,
   topbar: [
@@ -40,12 +40,12 @@ export default {
     },
     {
       to: "/research/best_svelte_tools",
-      label: "⚡ Svelte Libraries",
+      label: "⚡ Svelte Libs",
       position: "left",
     },
     {
       to: "/functions/modules",
-      label: "📁 Code Files",
+      label: "📁 Code",
       position: "left",
     }
     

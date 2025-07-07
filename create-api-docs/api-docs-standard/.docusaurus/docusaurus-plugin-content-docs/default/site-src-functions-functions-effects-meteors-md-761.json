@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Effects/Meteors",
+  "title": "Meteors",
+  "description": "Documentation / Effects/Meteors",
+  "source": "@site/src/functions/functions/Effects/Meteors.md",
+  "sourceDirName": "functions/functions/Effects",
+  "slug": "/functions/functions/Effects/Meteors",
+  "permalink": "/functions/functions/Effects/Meteors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Effects/Meteors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "GlowWrapper",
+    "permalink": "/functions/functions/Effects/GlowWrapper"
+  },
+  "next": {
+    "title": "MorphText",
+    "permalink": "/functions/functions/Effects/MorphText"
+  }
+}

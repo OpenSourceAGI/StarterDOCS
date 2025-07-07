@@ -1,0 +1,24 @@
+{
+  "id": "research/Voice Agent API",
+  "title": "👁️‍🗨️ Voice Agent APIs 2025",
+  "description": "The leading voice agent APIs offer lifelike speech synthesis, robust conversational logic, and scalable telephony integration. Choose based on your specific needs:",
+  "source": "@site/src/research/Voice Agent API.md",
+  "sourceDirName": "research",
+  "slug": "/research/Voice Agent API",
+  "permalink": "/research/Voice Agent API",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/Voice Agent API.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "📊 Top Developer Tools By Category",
+    "permalink": "/research/Top Dev Tools"
+  },
+  "next": {
+    "title": "🛠️ All Development Tools List",
+    "permalink": "/research/all-dev-tools"
+  }
+}

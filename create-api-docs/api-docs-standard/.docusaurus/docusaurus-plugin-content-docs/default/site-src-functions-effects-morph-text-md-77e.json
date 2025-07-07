@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/MorphText",
+  "title": "MorphText",
+  "description": "Documentation / Effects/MorphText",
+  "source": "@site/src/functions/Effects/MorphText.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/MorphText",
+  "permalink": "/functions/Effects/MorphText",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/Effects/MorphText.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Meteors",
+    "permalink": "/functions/Effects/Meteors"
+  },
+  "next": {
+    "title": "ParticleText",
+    "permalink": "/functions/Effects/ParticleText"
+  }
+}

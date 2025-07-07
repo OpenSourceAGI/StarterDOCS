@@ -1,0 +1,24 @@
+{
+  "id": "functions/Sections/Principle",
+  "title": "Principle",
+  "description": "Documentation / Sections/Principle",
+  "source": "@site/src/functions/Sections/Principle.md",
+  "sourceDirName": "functions/Sections",
+  "slug": "/functions/Sections/Principle",
+  "permalink": "/functions/Sections/Principle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/Sections/Principle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Preparation",
+    "permalink": "/functions/Sections/Preparation"
+  },
+  "next": {
+    "title": "Problems",
+    "permalink": "/functions/Sections/Problems"
+  }
+}

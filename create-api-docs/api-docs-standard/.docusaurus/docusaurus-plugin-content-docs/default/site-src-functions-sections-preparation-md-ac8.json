@@ -1,0 +1,24 @@
+{
+  "id": "functions/Sections/Preparation",
+  "title": "Preparation",
+  "description": "Documentation / Sections/Preparation",
+  "source": "@site/src/functions/Sections/Preparation.md",
+  "sourceDirName": "functions/Sections",
+  "slug": "/functions/Sections/Preparation",
+  "permalink": "/functions/Sections/Preparation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/Sections/Preparation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Header",
+    "permalink": "/functions/Sections/Header"
+  },
+  "next": {
+    "title": "Principle",
+    "permalink": "/functions/Sections/Principle"
+  }
+}

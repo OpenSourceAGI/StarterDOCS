@@ -1,0 +1,24 @@
+{
+  "id": "research/sms_api_comparison",
+  "title": "📱 Phone SMS Verification",
+  "description": "Quick Comparison Table",
+  "source": "@site/src/research/sms_api_comparison.md",
+  "sourceDirName": "research",
+  "slug": "/research/sms_api_comparison",
+  "permalink": "/research/sms_api_comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/sms_api_comparison.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Next.js & React Libraries",
+    "permalink": "/research/nextjs-tools"
+  },
+  "next": {
+    "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
+    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+  }
+}

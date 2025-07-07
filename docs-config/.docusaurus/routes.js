@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/',
-    component: ComponentCreator('/', '250'),
+    component: ComponentCreator('/', 'f85'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '4e9'),
+        component: ComponentCreator('/', '68f'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '314'),
+            component: ComponentCreator('/', '992'),
             routes: [
               {
                 path: '/functions/',
@@ -171,6 +171,12 @@ export default [
                 sidebar: "default"
               },
               {
+                path: '/research/language-intelligence',
+                component: ComponentCreator('/research/language-intelligence', '12d'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
                 path: '/research/nextjs-tools',
                 component: ComponentCreator('/research/nextjs-tools', '2db'),
                 exact: true,
@@ -183,6 +189,12 @@ export default [
                 sidebar: "default"
               },
               {
+                path: '/research/sms_api_comparison',
+                component: ComponentCreator('/research/sms_api_comparison', '094'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
                 path: '/research/sveltekit_vs_nextjs_comparison',
                 component: ComponentCreator('/research/sveltekit_vs_nextjs_comparison', '59a'),
                 exact: true,
@@ -191,6 +203,18 @@ export default [
               {
                 path: '/research/Top Dev Tools',
                 component: ComponentCreator('/research/Top Dev Tools', 'f13'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
+                path: '/research/Voice Agent API',
+                component: ComponentCreator('/research/Voice Agent API', '611'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
+                path: '/setup/Server Shell Setup',
+                component: ComponentCreator('/setup/Server Shell Setup', '658'),
                 exact: true,
                 sidebar: "default"
               },

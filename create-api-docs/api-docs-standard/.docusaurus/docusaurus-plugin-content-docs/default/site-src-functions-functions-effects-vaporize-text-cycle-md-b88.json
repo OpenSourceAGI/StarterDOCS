@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Effects/VaporizeTextCycle",
+  "title": "VaporizeTextCycle",
+  "description": "Documentation / Effects/VaporizeTextCycle",
+  "source": "@site/src/functions/functions/Effects/VaporizeTextCycle.md",
+  "sourceDirName": "functions/functions/Effects",
+  "slug": "/functions/functions/Effects/VaporizeTextCycle",
+  "permalink": "/functions/functions/Effects/VaporizeTextCycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Effects/VaporizeTextCycle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "ParticleText",
+    "permalink": "/functions/functions/Effects/ParticleText"
+  },
+  "next": {
+    "title": "GameOfLife",
+    "permalink": "/functions/functions/InteractiveApps/GameOfLife"
+  }
+}

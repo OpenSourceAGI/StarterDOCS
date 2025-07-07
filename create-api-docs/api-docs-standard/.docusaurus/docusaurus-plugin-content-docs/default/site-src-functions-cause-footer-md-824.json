@@ -1,0 +1,24 @@
+{
+  "id": "functions/CAUSE/Footer",
+  "title": "Footer",
+  "description": "Documentation / CAUSE/Footer",
+  "source": "@site/src/functions/CAUSE/Footer.md",
+  "sourceDirName": "functions/CAUSE",
+  "slug": "/functions/CAUSE/Footer",
+  "permalink": "/functions/CAUSE/Footer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/CAUSE/Footer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "CAUSEMainPage",
+    "permalink": "/functions/CAUSE/CAUSEMainPage"
+  },
+  "next": {
+    "title": "Navigation",
+    "permalink": "/functions/CAUSE/Navigation"
+  }
+}

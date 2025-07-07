@@ -1,0 +1,20 @@
+{
+  "id": "functions/functions/modules",
+  "title": "modules",
+  "description": "Modules",
+  "source": "@site/src/functions/functions/modules.md",
+  "sourceDirName": "functions/functions",
+  "slug": "/functions/functions/modules",
+  "permalink": "/functions/functions/modules",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/modules.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Understandings",
+    "permalink": "/functions/functions/Sections/Understandings"
+  }
+}

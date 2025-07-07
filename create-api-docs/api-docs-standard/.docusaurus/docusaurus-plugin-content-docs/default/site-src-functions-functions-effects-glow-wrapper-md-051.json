@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Effects/GlowWrapper",
+  "title": "GlowWrapper",
+  "description": "Documentation / Effects/GlowWrapper",
+  "source": "@site/src/functions/functions/Effects/GlowWrapper.md",
+  "sourceDirName": "functions/functions/Effects",
+  "slug": "/functions/functions/Effects/GlowWrapper",
+  "permalink": "/functions/functions/Effects/GlowWrapper",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Effects/GlowWrapper.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "BorderBeam",
+    "permalink": "/functions/functions/Effects/BorderBeam"
+  },
+  "next": {
+    "title": "Meteors",
+    "permalink": "/functions/functions/Effects/Meteors"
+  }
+}

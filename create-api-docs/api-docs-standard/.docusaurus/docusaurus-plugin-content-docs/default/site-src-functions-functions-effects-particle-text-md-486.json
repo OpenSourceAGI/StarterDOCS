@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Effects/ParticleText",
+  "title": "ParticleText",
+  "description": "Documentation / Effects/ParticleText",
+  "source": "@site/src/functions/functions/Effects/ParticleText.md",
+  "sourceDirName": "functions/functions/Effects",
+  "slug": "/functions/functions/Effects/ParticleText",
+  "permalink": "/functions/functions/Effects/ParticleText",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Effects/ParticleText.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "MorphText",
+    "permalink": "/functions/functions/Effects/MorphText"
+  },
+  "next": {
+    "title": "VaporizeTextCycle",
+    "permalink": "/functions/functions/Effects/VaporizeTextCycle"
+  }
+}

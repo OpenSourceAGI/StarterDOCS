@@ -1,7 +1,7 @@
 {
   "id": "research/nextjs-tools",
-  "title": "Best Next.js Tools & Resources",
-  "description": "🚀 Production-Ready Boilerplates",
+  "title": "Next.js & React Libraries",
+  "description": "🎨 UI & Styling",
   "source": "@site/src/research/nextjs-tools.md",
   "sourceDirName": "research",
   "slug": "/research/nextjs-tools",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "💼 Job Platforms",
-    "permalink": "/research/job_platforms_table"
+    "title": "👄 Language Intelligence Providers",
+    "permalink": "/research/language-intelligence"
   },
   "next": {
-    "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
-    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+    "title": "📱 Phone SMS Verification",
+    "permalink": "/research/sms_api_comparison"
   }
 }

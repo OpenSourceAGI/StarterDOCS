@@ -73,36 +73,6 @@ Plaid remains a leading choice for fintechs and platforms needing advanced bank 
 [8] https://www.pymnts.com/data/2025/plaid-ceo-says-its-next-five-years-will-look-a-lot-different-than-the-last-five/
 [9] https://www.fintegrationfs.com/post/plaid-pricing-and-plaid-pricing-calculator-for-fintech-apps
 [10] https://docs.itstripe.com/payment-methods/ach-debit-plaid-link-integration/
-## Nickel (NickelStart) ACH Platform: Costs & Features
-
-### Type
-- **Commercial, business-focused** platform
-
-### Key Features
-- **Automated bill pay:** Streamlines recurring and one-time payments for accounts payable and receivable.
-- **Vendor onboarding:** Easily pay any US business, contractor, or individual by collecting their payment details securely via email.
-- **Approval workflows:** Customizable, tiered user roles and payment approval processes for enhanced control over large expenses.
-- **Unlimited free ACH bank transfers:** Send and receive ACH payments from any US bank with no transaction fees.
-- **Branded payment links:** Accept payments online without an eCommerce storefront.
-- **Recurring payments:** Automate monthly billing and manage client payment info securely.
-- **QuickBooks integration:** Unlimited, real-time syncing with QuickBooks Online for seamless accounting.
-- **One-to-one fund settlement:** Each payment is settled individually, simplifying reconciliation.
-- **Multi-client management:** Manage multiple client accounts with a single login and unique permissions[1].
-
-### Cost
-- **Free unlimited ACH transfers** for business payments—no hidden fees or monthly charges for ACH transactions[2][1].
-
-### Use Case
-- **Best for:** Small businesses, accountants, and bookkeepers seeking a cost-effective, automated solution for accounts payable/receivable (AP/AR) and vendor payments.
-
-### Key Considerations
-- **OpenACH** is the only major open-source, free ACH API platform.
-- **Nickel** and **Melio** offer free ACH transfers for business payments but are not open source.
-- Most commercial APIs (Dwolla, Stripe, Plaid) charge low fees for ACH but provide robust developer tools and support.
-- Always review the latest pricing and terms, as offerings may change[2][1].
-
-### Summary
-Nickel (NickelStart) stands out for small businesses needing automated AP/AR and vendor payments, offering unlimited free ACH transfers, robust approval workflows, and seamless accounting integrations—all at no cost for ACH transactions[2][1].
 
 
 | Processor | ACH Fees \& Features | In-Person CC Fees \& Features | Online CC Fees \& Features | Chargeback Fees | Notable Features \& Integrations |

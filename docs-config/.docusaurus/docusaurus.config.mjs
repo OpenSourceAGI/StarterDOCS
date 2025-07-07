@@ -25,13 +25,13 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "title": "svelte-starter-docs",
+  "title": "StarterDOCS",
   "url": "https://starterdocs.js.org",
   "baseUrl": "/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",
   "favicon": "/favicon.ico",
-  "projectName": "svelte-starter-docs",
+  "projectName": "StarterDOCS",
   "presets": [
     [
       "classic",
@@ -73,7 +73,7 @@ export default {
           "pretty": true
         },
         "textContentMappings": {
-          "title.indexPage": "svelte-starter-docs API",
+          "title.indexPage": "StarterDOCS API",
           "title.memberPage": "{name}"
         },
         "parametersFormat": "htmlTable",
@@ -102,7 +102,7 @@ export default {
       }
     },
     "navbar": {
-      "title": "svelte-starter-docs Docs",
+      "title": "StarterDOCS Docs",
       "logo": {
         "alt": "logo",
         "src": "/apple-touch-icon.png",
@@ -121,12 +121,12 @@ export default {
         },
         {
           "to": "/research/best_svelte_tools",
-          "label": "⚡ Svelte Libraries",
+          "label": "⚡ Svelte Libs",
           "position": "left"
         },
         {
           "to": "/functions/modules",
-          "label": "📁 Code Files",
+          "label": "📁 Code",
           "position": "left"
         }
       ],

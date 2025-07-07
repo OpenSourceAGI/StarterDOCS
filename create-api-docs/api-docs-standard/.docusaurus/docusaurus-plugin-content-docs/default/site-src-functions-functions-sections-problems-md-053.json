@@ -1,0 +1,24 @@
+{
+  "id": "functions/functions/Sections/Problems",
+  "title": "Problems",
+  "description": "Documentation / Sections/Problems",
+  "source": "@site/src/functions/functions/Sections/Problems.md",
+  "sourceDirName": "functions/functions/Sections",
+  "slug": "/functions/functions/Sections/Problems",
+  "permalink": "/functions/functions/Sections/Problems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/functions/Sections/Problems.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Principle",
+    "permalink": "/functions/functions/Sections/Principle"
+  },
+  "next": {
+    "title": "Rights",
+    "permalink": "/functions/functions/Sections/Rights"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "functions/InteractiveApps/QuantumGeometry",
+  "title": "QuantumGeometry",
+  "description": "Documentation / InteractiveApps/QuantumGeometry",
+  "source": "@site/src/functions/InteractiveApps/QuantumGeometry.md",
+  "sourceDirName": "functions/InteractiveApps",
+  "slug": "/functions/InteractiveApps/QuantumGeometry",
+  "permalink": "/functions/InteractiveApps/QuantumGeometry",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/InteractiveApps/QuantumGeometry.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "GlobeAnimation",
+    "permalink": "/functions/InteractiveApps/GlobeAnimation"
+  },
+  "next": {
+    "title": "SpiralAnimation",
+    "permalink": "/functions/InteractiveApps/SpiralAnimation"
+  }
+}
