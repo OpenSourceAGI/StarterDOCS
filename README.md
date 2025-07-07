@@ -1,26 +1,30 @@
 <p align="center">
-    <img width="350px" src="https://i.imgur.com/jehI6lv.png">
+    <img width="350px" src="https://i.imgur.com/PE4kQWy.png" />
 </p>
 <p align="center">
     <a href="https://github.com/vtempest/Svelte-Starter-DOCS/discussions">
-    <img alt="GitHub Discussions"
-        src="https://img.shields.io/github/discussions/vtempest/Svelte-Starter-DOCS">
+        <img alt="GitHub Discussions"
+            src="https://img.shields.io/github/discussions/vtempest/Svelte-Starter-DOCS" />
     </a>
     <a href="http://makeapullrequest.com">
-        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
     </a>
     <a href="https://codespaces.new/vtempest/Svelte-Starter-DOCS">
-    <img src="https://github.com/codespaces/badge.svg" width="150" height="20">
+        <img src="https://github.com/codespaces/badge.svg" width="150" height="20" />
     </a>
 </p>
 <h3 align="center">
-  <a href="https://starterdocs.vtempest.workers.dev"> 🎮Live Demo </a>
+    <a href="https://starterdocs.vtempest.workers.dev">🎮Live Demo</a>
 </h3>
 <h3 align="center">
-  <a href="https://starterdocs.js.org"> 📑 Files & Functions Docs (starterdocs.js.org)</a>
+    <a href="https://starterdocs.js.org">📑 Files & Functions Docs (starterdocs.js.org)</a>
 </h3>
 
 ### ⚒️ Svelte Serverless Starter DOCS: Drizzle OAuth Cloudflare Svelte
+
+```
+npx create-starter-app
+```
 
 📚 [Drizzle ORM](https://orm.drizzle.team/kit-docs/quick) - lightweight ORM compatible with Cloudflare D1 and drizzle-kit to manage schema migrations
 
@@ -32,11 +36,11 @@
 
 ### 🧩 Interface Components
 
-🎨 [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) + [Bits UI](https://github.com/huntabyte/bits-ui) + [shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) - popular UI components, with  [lucide](https://github.com/lucide-icons/lucide) icons and demos like [Sidebar](https://next.shadcn-svelte.com/blocks) and [Magic UI Animations](https://animation-svelte.vercel.app/magic)
+🎨 [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) + [Bits UI](https://github.com/huntabyte/bits-ui) + [shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) - popular UI components, with  [lucide](https://github.com/lucide-icons/lucide) icons
+
+**Reusable UI Parts:**  [Shadcn Sidebar](https://next.shadcn-svelte.com/blocks), [21st.dev](https://21st.dev/home), [Magic UI Animations](https://animation-svelte.vercel.app/magic) 
 
 📝 [formsnap](https://github.com/svecosystem/formsnap) + [sveltekit-superforms](https://github.com/ciscoheat/sveltekit-superforms) with [zod](https://github.com/colinhacks/zod) validation and [rate-limiting](https://github.com/ciscoheat/sveltekit-rate-limiter) in server memory
-
-🌲 [pino](https://github.com/pinojs/pino) - error logs
 
 ✅ [Vitest](https://vitest.dev/guide/ui) - unit testing UI
 
@@ -48,8 +52,10 @@ Change Drizzle setup to connect to any db like Supabase, and add popular platfor
 
 ### 🖼️ Screenshots
 <p align="center">
-    <img width="350px" src="https://i.imgur.com/jIaL6yP.png"><img width="350px" src="https://i.imgur.com/NlkjlWI.png">
+    <img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" />
 </p>
+
+![logo2](https://i.imgur.com/jehI6lv.png)
 
 
 ### ⬇️ Installation
@@ -77,7 +83,3 @@ Change Drizzle setup to connect to any db like Supabase, and add popular platfor
 20.  Add-to-Home on Mobile Web: Design logo and generate icons for with [PWA Asset Generator](https://github.com/elegantapp/pwa-asset-generator) or [Favicon.io](https://favicon.io)
 21.  User Analytics: Get Google Analytics ID from [Google Analytics](https://support.google.com/analytics/answer/9539598?hl=en) or [SimpleAnalytics](https://www.simpleanalytics.com) and add to `app.html`.
 22.  Email Forwarding: Setup [Cloudflare Email Routing](https://blog.cloudflare.com/introducing-email-routing/) and [GMail's Send From Verification](https://support.google.com/mail/answer/22370?hl=en)
-23.  
-
-![logo2](https://i.imgur.com/PE4kQWy.png)
-![logo2](https://i.imgur.com/6r83blS.png)

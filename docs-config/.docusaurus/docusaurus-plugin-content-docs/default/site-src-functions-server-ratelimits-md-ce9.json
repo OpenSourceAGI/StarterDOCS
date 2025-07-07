@@ -1,0 +1,24 @@
+{
+  "id": "functions/server/ratelimits",
+  "title": "ratelimits",
+  "description": "Documentation / server/ratelimits",
+  "source": "@site/src/functions/server/ratelimits.md",
+  "sourceDirName": "functions/server",
+  "slug": "/functions/server/ratelimits",
+  "permalink": "/functions/server/ratelimits",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/server/ratelimits.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "email",
+    "permalink": "/functions/server/email"
+  },
+  "next": {
+    "title": "schema",
+    "permalink": "/functions/server/schema"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "functions/hooks.server",
+  "title": "hooks.server",
+  "description": "Documentation / hooks.server",
+  "source": "@site/src/functions/hooks.server.md",
+  "sourceDirName": "functions",
+  "slug": "/functions/hooks.server",
+  "permalink": "/functions/hooks.server",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/hooks.server.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "global",
+    "permalink": "/functions/global"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/functions/"
+  }
+}

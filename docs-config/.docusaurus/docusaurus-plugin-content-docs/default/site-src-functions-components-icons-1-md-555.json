@@ -1,0 +1,20 @@
+{
+  "id": "functions/components/icons-1",
+  "title": "icons-1",
+  "description": "Documentation / components/icons",
+  "source": "@site/src/functions/components/icons-1.md",
+  "sourceDirName": "functions/components",
+  "slug": "/functions/components/icons-1",
+  "permalink": "/functions/components/icons-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/components/icons-1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "next": {
+    "title": "icons",
+    "permalink": "/functions/components/icons"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "research/sveltekit_vs_nextjs_comparison",
+  "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
+  "description": "🏗️ Architecture & Core Philosophy",
+  "source": "@site/src/research/sveltekit_vs_nextjs_comparison.md",
+  "sourceDirName": "research",
+  "slug": "/research/sveltekit_vs_nextjs_comparison",
+  "permalink": "/research/sveltekit_vs_nextjs_comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/sveltekit_vs_nextjs_comparison.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "💼 Job Platforms",
+    "permalink": "/research/job_platforms_table"
+  }
+}

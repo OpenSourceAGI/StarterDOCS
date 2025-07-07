@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { AlertDialog as AlertDialogPrimitive } from "bits-ui";
-	import { cn } from "$lib/utils/style-transitions.js";
+	import { cn } from "$components/utils";
 
 	let {
-		ref = $bindable(null),
 		class: className,
 		level = 3,
+		ref = $bindable(null),
 		...restProps
 	}: AlertDialogPrimitive.TitleProps = $props();
 </script>

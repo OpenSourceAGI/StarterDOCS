@@ -1,0 +1,24 @@
+{
+  "id": "functions/lib/server/email",
+  "title": "email",
+  "description": "Documentation / lib/server/email",
+  "source": "@site/src/functions/lib/server/email.md",
+  "sourceDirName": "functions/lib/server",
+  "slug": "/functions/lib/server/email",
+  "permalink": "/functions/lib/server/email",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/server/email.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "drizzle.config",
+    "permalink": "/functions/lib/server/drizzle.config"
+  },
+  "next": {
+    "title": "ratelimits",
+    "permalink": "/functions/lib/server/ratelimits"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "/-dc8": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/-da7": {
+    "__comp": "a7bd4aaa",
+    "__props": "22dd74f7"
+  },
+  "/-a0e": {
+    "__comp": "a94703ab"
+  },
+  "/functions/-5b3": {
+    "__comp": "17896441",
+    "content": "c3a618e1"
+  },
+  "/functions/global-e3c": {
+    "__comp": "17896441",
+    "content": "a5ab643f"
+  },
+  "/functions/hooks.server-485": {
+    "__comp": "17896441",
+    "content": "1ed2baab"
+  },
+  "/functions/lib/components/icons-50a": {
+    "__comp": "17896441",
+    "content": "ca16a826"
+  },
+  "/functions/lib/components/icons-1-031": {
+    "__comp": "17896441",
+    "content": "02ad8330"
+  },
+  "/functions/lib/components/utils-f25": {
+    "__comp": "17896441",
+    "content": "0cb7c4bc"
+  },
+  "/functions/lib/components/utils-1-14f": {
+    "__comp": "17896441",
+    "content": "0af849d2"
+  },
+  "/functions/lib/components/utils/auth-client-550": {
+    "__comp": "17896441",
+    "content": "e7da5928"
+  },
+  "/functions/lib/customize-site-452": {
+    "__comp": "17896441",
+    "content": "34b7c68b"
+  },
+  "/functions/lib/hooks/is-mobile.svelte-539": {
+    "__comp": "17896441",
+    "content": "478b1aed"
+  },
+  "/functions/lib/server-9d7": {
+    "__comp": "17896441",
+    "content": "5437985d"
+  },
+  "/functions/lib/server-1-ab2": {
+    "__comp": "17896441",
+    "content": "a454fef0"
+  },
+  "/functions/lib/server/auth-8d5": {
+    "__comp": "17896441",
+    "content": "3c4b8dcd"
+  },
+  "/functions/lib/server/drizzle.config-182": {
+    "__comp": "17896441",
+    "content": "eb023e19"
+  },
+  "/functions/lib/server/email-bb3": {
+    "__comp": "17896441",
+    "content": "f667c916"
+  },
+  "/functions/lib/server/ratelimits-5f3": {
+    "__comp": "17896441",
+    "content": "7b57d9b9"
+  },
+  "/functions/lib/server/schema-f6b": {
+    "__comp": "17896441",
+    "content": "634c7e41"
+  },
+  "/functions/lib/server/types-5d2": {
+    "__comp": "17896441",
+    "content": "c0b238af"
+  },
+  "/functions/lib/server/users-f3a": {
+    "__comp": "17896441",
+    "content": "0b5864a5"
+  },
+  "/functions/lib/server/validations-aa4": {
+    "__comp": "17896441",
+    "content": "2f3b8509"
+  },
+  "/functions/modules-f7f": {
+    "__comp": "17896441",
+    "content": "68cef36b"
+  },
+  "/functions/routes/+layout-354": {
+    "__comp": "17896441",
+    "content": "395ac7cd"
+  },
+  "/research/all-dev-tools-2d4": {
+    "__comp": "17896441",
+    "content": "1d053af4"
+  },
+  "/research/Cloud Providers 100K-e88": {
+    "__comp": "17896441",
+    "content": "248a170f"
+  },
+  "/research/job_platforms_table-3bc": {
+    "__comp": "17896441",
+    "content": "a9fa68f7"
+  },
+  "/research/Payment Processor-f59": {
+    "__comp": "17896441",
+    "content": "e7d4fd73"
+  },
+  "/research/sveltekit_vs_nextjs_comparison-59a": {
+    "__comp": "17896441",
+    "content": "9f139125"
+  },
+  "/research/Top Dev Tools-f13": {
+    "__comp": "17896441",
+    "content": "d7597413"
+  }
+}

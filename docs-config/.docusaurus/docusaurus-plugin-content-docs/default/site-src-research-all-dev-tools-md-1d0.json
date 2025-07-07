@@ -1,0 +1,24 @@
+{
+  "id": "research/all-dev-tools",
+  "title": "🛠️ All Development Tools List",
+  "description": "🌐 Web Frameworks & Libraries",
+  "source": "@site/src/research/all-dev-tools.md",
+  "sourceDirName": "research",
+  "slug": "/research/all-dev-tools",
+  "permalink": "/research/all-dev-tools",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/all-dev-tools.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "📊 Top Developer Tools By Category",
+    "permalink": "/research/Top Dev Tools"
+  },
+  "next": {
+    "title": "💼 Job Platforms",
+    "permalink": "/research/job_platforms_table"
+  }
+}

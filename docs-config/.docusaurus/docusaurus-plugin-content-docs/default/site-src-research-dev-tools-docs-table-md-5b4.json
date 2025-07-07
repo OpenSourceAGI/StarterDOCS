@@ -1,0 +1,24 @@
+{
+  "id": "research/dev_tools_docs_table",
+  "title": "📊 Top Developer Tools By Category",
+  "description": "| Category | Tool Rank (best first) | Features  |",
+  "source": "@site/src/research/dev_tools_docs_table.md",
+  "sourceDirName": "research",
+  "slug": "/research/dev_tools_docs_table",
+  "permalink": "/research/dev_tools_docs_table",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/dev_tools_docs_table.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "🛠️ Development Tools & Frameworks",
+    "permalink": "/research/dev-tools-categorized"
+  },
+  "next": {
+    "title": "💼 Job Platforms",
+    "permalink": "/research/job_platforms_table"
+  }
+}

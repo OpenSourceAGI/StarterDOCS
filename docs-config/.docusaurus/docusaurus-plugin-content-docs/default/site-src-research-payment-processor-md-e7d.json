@@ -1,0 +1,24 @@
+{
+  "id": "research/Payment Processor",
+  "title": "💳 Payment Processors",
+  "description": "short summary",
+  "source": "@site/src/research/Payment Processor.md",
+  "sourceDirName": "research",
+  "slug": "/research/Payment Processor",
+  "permalink": "/research/Payment Processor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/Payment Processor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "☁️ Cloud Provider Costs",
+    "permalink": "/research/Cloud Providers 100K"
+  },
+  "next": {
+    "title": "📊 Top Developer Tools By Category",
+    "permalink": "/research/Top Dev Tools"
+  }
+}

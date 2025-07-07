@@ -1,0 +1,24 @@
+{
+  "id": "research/Updated Payment Processor Comparison",
+  "title": "Updated Payment Processor Comparison",
+  "description": "Payment Processor Comparison",
+  "source": "@site/src/research/Updated Payment Processor Comparison.md",
+  "sourceDirName": "research",
+  "slug": "/research/Updated Payment Processor Comparison",
+  "permalink": "/research/Updated Payment Processor Comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/Updated Payment Processor Comparison.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Cloud Provider Cost Analysis for 100,000 User Applications",
+    "permalink": "/research/Comparisons"
+  },
+  "next": {
+    "title": "🛠️ Development Tools & Frameworks",
+    "permalink": "/research/dev-tools-categorized"
+  }
+}

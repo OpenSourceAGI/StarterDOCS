@@ -1,8 +1,9 @@
 <script lang="ts">
-  	let { children } = $props();
-
-  import "../app.pcss";
+  import { fade } from "svelte/transition";
+  import "../app.css";
+  let { children } = $props();
+  const duration = 1000;
 </script>
-  
-<!-- {@render children?.()} -->
-<slot />
+<div in:fade={{ duration }} out:fade={{ duration }}>
+  {@render children?.()}
+</div>

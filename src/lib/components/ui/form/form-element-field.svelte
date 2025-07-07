@@ -7,8 +7,8 @@
 <script lang="ts" generics="T extends Record<string, unknown>, U extends _FormPathLeaves<T>">
 	import * as FormPrimitive from "formsnap";
 	import type { HTMLAttributes } from "svelte/elements";
-	import type { WithElementRef, WithoutChildren } from "bits-ui";
-	import { cn } from "$lib/utils/style-transitions.js";
+	import type { WithElementRef } from "bits-ui";
+	import { cn } from "$components/utils";
 
 	let {
 		ref = $bindable(null),
@@ -17,7 +17,7 @@
 		name,
 		children: childrenProp,
 		...restProps
-	}: WithoutChildren<WithElementRef<HTMLAttributes<HTMLDivElement>>> &
+	}: WithElementRef<HTMLAttributes<HTMLDivElement>> &
 		FormPrimitive.ElementFieldProps<T, U> = $props();
 </script>
 

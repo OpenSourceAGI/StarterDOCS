@@ -1,0 +1,24 @@
+{
+  "id": "functions/server/auth",
+  "title": "auth",
+  "description": "Documentation / server/auth",
+  "source": "@site/src/functions/server/auth.md",
+  "sourceDirName": "functions/server",
+  "slug": "/functions/server/auth",
+  "permalink": "/functions/server/auth",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/server/auth.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "modules",
+    "permalink": "/functions/modules"
+  },
+  "next": {
+    "title": "drizzle.config",
+    "permalink": "/functions/server/drizzle.config"
+  }
+}

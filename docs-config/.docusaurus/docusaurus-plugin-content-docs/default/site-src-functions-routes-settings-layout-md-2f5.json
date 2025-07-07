@@ -1,0 +1,24 @@
+{
+  "id": "functions/routes/settings/+layout",
+  "title": "+layout",
+  "description": "Documentation / routes/settings/+layout",
+  "source": "@site/src/functions/routes/settings/+layout.md",
+  "sourceDirName": "functions/routes/settings",
+  "slug": "/functions/routes/settings/+layout",
+  "permalink": "/functions/routes/settings/+layout",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/routes/settings/+layout.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "+layout",
+    "permalink": "/functions/routes/+layout"
+  },
+  "next": {
+    "title": "+layout.server",
+    "permalink": "/functions/routes/settings/+layout.server"
+  }
+}

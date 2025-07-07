@@ -1,7 +1,7 @@
 <script lang="ts">
 	import * as FormPrimitive from "formsnap";
 	import type { WithoutChild } from "bits-ui";
-	import { cn } from "$lib/utils/style-transitions.js";
+	import { cn } from "$components/utils";
 
 	let {
 		ref = $bindable(null),
@@ -12,6 +12,6 @@
 
 <FormPrimitive.Description
 	bind:ref
-	class={cn("text-muted-foreground text-sm", className)}
+	class={cn("text-muted-foreground text-[0.8rem]", className)}
 	{...restProps}
 />

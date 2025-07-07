@@ -1,0 +1,24 @@
+{
+  "id": "functions/components/utils/auth-client",
+  "title": "auth-client",
+  "description": "Documentation / components/utils/auth-client",
+  "source": "@site/src/functions/components/utils/auth-client.md",
+  "sourceDirName": "functions/components/utils",
+  "slug": "/functions/components/utils/auth-client",
+  "permalink": "/functions/components/utils/auth-client",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/components/utils/auth-client.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "icons",
+    "permalink": "/functions/components/icons"
+  },
+  "next": {
+    "title": "utils-1",
+    "permalink": "/functions/components/utils-1"
+  }
+}

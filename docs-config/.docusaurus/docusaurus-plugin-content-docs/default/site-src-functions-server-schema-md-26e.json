@@ -1,0 +1,24 @@
+{
+  "id": "functions/server/schema",
+  "title": "schema",
+  "description": "Documentation / server/schema",
+  "source": "@site/src/functions/server/schema.md",
+  "sourceDirName": "functions/server",
+  "slug": "/functions/server/schema",
+  "permalink": "/functions/server/schema",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/server/schema.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "ratelimits",
+    "permalink": "/functions/server/ratelimits"
+  },
+  "next": {
+    "title": "types",
+    "permalink": "/functions/server/types"
+  }
+}
