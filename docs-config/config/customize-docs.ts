@@ -24,7 +24,7 @@ export default {
   baseFolder: "./",
   logo: "/apple-touch-icon.png",
   favicon: "/favicon.ico",
-  enableFasterBuildV4: false,
+  enableFasterBuildV4: 1,
   enableReadmeAsHome: true,
   usePathSlashDocs: false,
   topbar: [
@@ -32,7 +32,24 @@ export default {
       to: "/functions",
       label: "👋 Intro",
       position: "left",
+    },
+    {
+      to: "/research/Top%20Dev%20Tools",
+      label: "🛠️ Top Dev Tools",
+      position: "left",
+    },
+    {
+      to: "/research/best_svelte_tools",
+      label: "⚡ Svelte Libraries",
+      position: "left",
+    },
+    {
+      to: "/functions/modules",
+      label: "📁 Code Files",
+      position: "left",
     }
+    
+
   ],
   // @ts-ignore
 } satisfies APIDocsConfig;

@@ -25,6 +25,7 @@ export default {
   "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
   "a9fa68f7": [() => import(/* webpackChunkName: "a9fa68f7" */ "@site/src/research/job_platforms_table.md"), "@site/src/research/job_platforms_table.md", require.resolveWeak("@site/src/research/job_platforms_table.md")],
   "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
+  "b61565ac": [() => import(/* webpackChunkName: "b61565ac" */ "@site/src/research/best_svelte_tools.md"), "@site/src/research/best_svelte_tools.md", require.resolveWeak("@site/src/research/best_svelte_tools.md")],
   "c0b238af": [() => import(/* webpackChunkName: "c0b238af" */ "@site/src/functions/lib/server/types.md"), "@site/src/functions/lib/server/types.md", require.resolveWeak("@site/src/functions/lib/server/types.md")],
   "c3a618e1": [() => import(/* webpackChunkName: "c3a618e1" */ "@site/src/functions/index.md"), "@site/src/functions/index.md", require.resolveWeak("@site/src/functions/index.md")],
   "ca16a826": [() => import(/* webpackChunkName: "ca16a826" */ "@site/src/functions/lib/components/icons.md"), "@site/src/functions/lib/components/icons.md", require.resolveWeak("@site/src/functions/lib/components/icons.md")],
@@ -32,5 +33,6 @@ export default {
   "d7597413": [() => import(/* webpackChunkName: "d7597413" */ "@site/src/research/Top Dev Tools.md"), "@site/src/research/Top Dev Tools.md", require.resolveWeak("@site/src/research/Top Dev Tools.md")],
   "e7d4fd73": [() => import(/* webpackChunkName: "e7d4fd73" */ "@site/src/research/Payment Processor.md"), "@site/src/research/Payment Processor.md", require.resolveWeak("@site/src/research/Payment Processor.md")],
   "e7da5928": [() => import(/* webpackChunkName: "e7da5928" */ "@site/src/functions/lib/components/utils/auth-client.md"), "@site/src/functions/lib/components/utils/auth-client.md", require.resolveWeak("@site/src/functions/lib/components/utils/auth-client.md")],
+  "e8dbff10": [() => import(/* webpackChunkName: "e8dbff10" */ "@site/src/research/nextjs-tools.md"), "@site/src/research/nextjs-tools.md", require.resolveWeak("@site/src/research/nextjs-tools.md")],
   "eb023e19": [() => import(/* webpackChunkName: "eb023e19" */ "@site/src/functions/lib/server/drizzle.config.md"), "@site/src/functions/lib/server/drizzle.config.md", require.resolveWeak("@site/src/functions/lib/server/drizzle.config.md")],
   "f667c916": [() => import(/* webpackChunkName: "f667c916" */ "@site/src/functions/lib/server/email.md"), "@site/src/functions/lib/server/email.md", require.resolveWeak("@site/src/functions/lib/server/email.md")],};

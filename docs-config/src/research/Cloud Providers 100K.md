@@ -118,18 +118,6 @@ Expect **$500-2,000 monthly** for 100,000 user applications, with excellent docu
 
 **Primary recommendation**: AWS Enterprise support with comprehensive compliance certifications (SOC, HIPAA, FedRAMP). The $15,000 monthly support minimum provides dedicated technical account management and 15-minute response times.
 
-**Alternative**: Azure Enterprise with Active Directory integration delivers strong compliance features while leveraging existing Microsoft enterprise contracts and support relationships.
-
-## Implementation roadmap
-
-**Phase 1** (Months 1-2): Establish foundation infrastructure with basic load balancing, primary database, and monitoring. Budget 40% of estimated costs for foundational services.
-
-**Phase 2** (Months 2-3): Add read replicas, implement caching layers, configure auto-scaling, and deploy CDN. Expect 70% of full operational costs during this phase.
-
-**Phase 3** (Months 3-4): Performance tuning, multi-region setup, advanced monitoring, and security hardening. Achieve full operational capacity and cost optimization.
-
-**Phase 4** (Ongoing): Continuous optimization through reserved instance purchases, right-sizing recommendations, and advanced architectural patterns like microservices migration.
-
 ## Conclusion
 
 **The optimal choice depends critically on application characteristics and team expertise**. Hetzner provides unmatched cost efficiency for European applications, while AWS offers comprehensive enterprise features for global scale. Cloudflare's edge network and zero egress fees benefit content-heavy applications, and Azure excels for Microsoft-centric enterprises.

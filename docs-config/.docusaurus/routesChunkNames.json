@@ -1,15 +1,15 @@
 {
-  "/-703": {
+  "/-250": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/-a67": {
+  "/-4e9": {
     "__comp": "a7bd4aaa",
     "__props": "22dd74f7"
   },
-  "/-203": {
+  "/-314": {
     "__comp": "a94703ab"
   },
   "/functions/-5b3": {
@@ -104,6 +104,10 @@
     "__comp": "17896441",
     "content": "1d053af4"
   },
+  "/research/best_svelte_tools-d52": {
+    "__comp": "17896441",
+    "content": "b61565ac"
+  },
   "/research/Cloud Providers 100K-e88": {
     "__comp": "17896441",
     "content": "248a170f"
@@ -111,6 +115,10 @@
   "/research/job_platforms_table-3bc": {
     "__comp": "17896441",
     "content": "a9fa68f7"
+  },
+  "/research/nextjs-tools-2db": {
+    "__comp": "17896441",
+    "content": "e8dbff10"
   },
   "/research/Payment Processor-f59": {
     "__comp": "17896441",

@@ -6,18 +6,18 @@
 export default {
   "future": {
     "v4": {
-      "removeLegacyPostBuildHeadAttribute": false,
+      "removeLegacyPostBuildHeadAttribute": true,
       "useCssCascadeLayers": false
     },
     "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
+      "swcJsLoader": true,
+      "swcJsMinimizer": true,
+      "swcHtmlMinimizer": true,
+      "lightningCssMinimizer": true,
+      "mdxCrossCompilerCache": true,
+      "rspackBundler": true,
+      "rspackPersistentCache": true,
+      "ssgWorkerThreads": true
     },
     "experimental_storage": {
       "type": "localStorage",
@@ -112,6 +112,21 @@ export default {
         {
           "to": "/functions",
           "label": "👋 Intro",
+          "position": "left"
+        },
+        {
+          "to": "/research/Top%20Dev%20Tools",
+          "label": "🛠️ Top Dev Tools",
+          "position": "left"
+        },
+        {
+          "to": "/research/best_svelte_tools",
+          "label": "⚡ Svelte Libraries",
+          "position": "left"
+        },
+        {
+          "to": "/functions/modules",
+          "label": "📁 Code Files",
           "position": "left"
         }
       ],

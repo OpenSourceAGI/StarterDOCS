@@ -131,6 +131,11 @@
               "sidebar": "default"
             },
             {
+              "id": "research/best_svelte_tools",
+              "path": "/research/best_svelte_tools",
+              "sidebar": "default"
+            },
+            {
               "id": "research/Cloud Providers 100K",
               "path": "/research/Cloud Providers 100K",
               "sidebar": "default"
@@ -138,6 +143,11 @@
             {
               "id": "research/job_platforms_table",
               "path": "/research/job_platforms_table",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/nextjs-tools",
+              "path": "/research/nextjs-tools",
               "sidebar": "default"
             },
             {
@@ -173,8 +183,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1751883501653.json",
-        "lunrIndex": "lunr-index-1751883501653.json"
+        "searchDoc": "search-doc-1751889246589.json",
+        "lunrIndex": "lunr-index-1751889246589.json"
       }
     }
   }

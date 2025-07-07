@@ -288,7 +288,7 @@ app/
 ## 📈 Market Trends & Future
 
 ### SvelteKit Momentum
-- **GitHub Stars**: 18k+ (rapidly growing)
+- **GitHub Stars**: 100k+ (83k Svelte, 18k SvelteKit) (rapidly growing)
 - **Developer Satisfaction**: Consistently top-rated in surveys
 - **Adoption**: Growing in startups and performance-focused companies
 - **Innovation**: Leading in compile-time optimization

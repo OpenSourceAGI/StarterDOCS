@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/',
-    component: ComponentCreator('/', '703'),
+    component: ComponentCreator('/', '250'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a67'),
+        component: ComponentCreator('/', '4e9'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '203'),
+            component: ComponentCreator('/', '314'),
             routes: [
               {
                 path: '/functions/',
@@ -153,6 +153,12 @@ export default [
                 sidebar: "default"
               },
               {
+                path: '/research/best_svelte_tools',
+                component: ComponentCreator('/research/best_svelte_tools', 'd52'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
                 path: '/research/Cloud Providers 100K',
                 component: ComponentCreator('/research/Cloud Providers 100K', 'e88'),
                 exact: true,
@@ -161,6 +167,12 @@ export default [
               {
                 path: '/research/job_platforms_table',
                 component: ComponentCreator('/research/job_platforms_table', '3bc'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
+                path: '/research/nextjs-tools',
+                component: ComponentCreator('/research/nextjs-tools', '2db'),
                 exact: true,
                 sidebar: "default"
               },

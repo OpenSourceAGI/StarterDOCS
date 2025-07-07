@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "🛠️ All Development Tools List",
-    "permalink": "/research/all-dev-tools"
+    "title": "Best Svelte Tools Summary",
+    "permalink": "/research/best_svelte_tools"
   },
   "next": {
-    "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
-    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+    "title": "Best Next.js Tools & Resources",
+    "permalink": "/research/nextjs-tools"
   }
 }
