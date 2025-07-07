@@ -5,7 +5,7 @@
   "source": "@site/src/research/all-dev-tools.md",
   "sourceDirName": "research",
   "slug": "/research/all-dev-tools",
-  "permalink": "/docs/research/all-dev-tools",
+  "permalink": "/research/all-dev-tools",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/all-dev-tools.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "📊 Top Developer Tools By Category",
-    "permalink": "/docs/research/Top Dev Tools"
+    "permalink": "/research/Top Dev Tools"
   },
   "next": {
     "title": "💼 Job Platforms",
-    "permalink": "/docs/research/job_platforms_table"
+    "permalink": "/research/job_platforms_table"
   }
 }

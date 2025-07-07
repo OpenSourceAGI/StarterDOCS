@@ -1,158 +1,158 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs/",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs/",
+          "path": "/",
           "mainDocId": "index",
           "docs": [
             {
               "id": "functions/global",
-              "path": "/docs/functions/global",
+              "path": "/functions/global",
               "sidebar": "default"
             },
             {
               "id": "functions/hooks.server",
-              "path": "/docs/functions/hooks.server",
+              "path": "/functions/hooks.server",
               "sidebar": "default"
             },
             {
               "id": "functions/index",
-              "path": "/docs/functions/",
+              "path": "/functions/",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/components/icons",
-              "path": "/docs/functions/lib/components/icons",
+              "path": "/functions/lib/components/icons",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/components/icons-1",
-              "path": "/docs/functions/lib/components/icons-1",
+              "path": "/functions/lib/components/icons-1",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/components/utils",
-              "path": "/docs/functions/lib/components/utils",
+              "path": "/functions/lib/components/utils",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/components/utils-1",
-              "path": "/docs/functions/lib/components/utils-1",
+              "path": "/functions/lib/components/utils-1",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/components/utils/auth-client",
-              "path": "/docs/functions/lib/components/utils/auth-client",
+              "path": "/functions/lib/components/utils/auth-client",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/customize-site",
-              "path": "/docs/functions/lib/customize-site",
+              "path": "/functions/lib/customize-site",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/hooks/is-mobile.svelte",
-              "path": "/docs/functions/lib/hooks/is-mobile.svelte",
+              "path": "/functions/lib/hooks/is-mobile.svelte",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server",
-              "path": "/docs/functions/lib/server",
+              "path": "/functions/lib/server",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server-1",
-              "path": "/docs/functions/lib/server-1",
+              "path": "/functions/lib/server-1",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/auth",
-              "path": "/docs/functions/lib/server/auth",
+              "path": "/functions/lib/server/auth",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/drizzle.config",
-              "path": "/docs/functions/lib/server/drizzle.config",
+              "path": "/functions/lib/server/drizzle.config",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/email",
-              "path": "/docs/functions/lib/server/email",
+              "path": "/functions/lib/server/email",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/ratelimits",
-              "path": "/docs/functions/lib/server/ratelimits",
+              "path": "/functions/lib/server/ratelimits",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/schema",
-              "path": "/docs/functions/lib/server/schema",
+              "path": "/functions/lib/server/schema",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/types",
-              "path": "/docs/functions/lib/server/types",
+              "path": "/functions/lib/server/types",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/users",
-              "path": "/docs/functions/lib/server/users",
+              "path": "/functions/lib/server/users",
               "sidebar": "default"
             },
             {
               "id": "functions/lib/server/validations",
-              "path": "/docs/functions/lib/server/validations",
+              "path": "/functions/lib/server/validations",
               "sidebar": "default"
             },
             {
               "id": "functions/modules",
-              "path": "/docs/functions/modules",
+              "path": "/functions/modules",
               "sidebar": "default"
             },
             {
               "id": "functions/routes/+layout",
-              "path": "/docs/functions/routes/+layout",
+              "path": "/functions/routes/+layout",
               "sidebar": "default"
             },
             {
               "id": "index",
-              "path": "/docs/",
+              "path": "/",
               "sidebar": "default"
             },
             {
               "id": "research/all-dev-tools",
-              "path": "/docs/research/all-dev-tools",
+              "path": "/research/all-dev-tools",
               "sidebar": "default"
             },
             {
               "id": "research/Cloud Providers 100K",
-              "path": "/docs/research/Cloud Providers 100K",
+              "path": "/research/Cloud Providers 100K",
               "sidebar": "default"
             },
             {
               "id": "research/job_platforms_table",
-              "path": "/docs/research/job_platforms_table",
+              "path": "/research/job_platforms_table",
               "sidebar": "default"
             },
             {
               "id": "research/Payment Processor",
-              "path": "/docs/research/Payment Processor",
+              "path": "/research/Payment Processor",
               "sidebar": "default"
             },
             {
               "id": "research/sveltekit_vs_nextjs_comparison",
-              "path": "/docs/research/sveltekit_vs_nextjs_comparison",
+              "path": "/research/sveltekit_vs_nextjs_comparison",
               "sidebar": "default"
             },
             {
               "id": "research/Top Dev Tools",
-              "path": "/docs/research/Top Dev Tools",
+              "path": "/research/Top Dev Tools",
               "sidebar": "default"
             }
           ],
@@ -160,7 +160,7 @@
           "sidebars": {
             "default": {
               "link": {
-                "path": "/docs/functions/global",
+                "path": "/functions/global",
                 "label": "functions/global"
               }
             }
@@ -173,8 +173,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1751883154162.json",
-        "lunrIndex": "lunr-index-1751883154162.json"
+        "searchDoc": "search-doc-1751883501653.json",
+        "lunrIndex": "lunr-index-1751883501653.json"
       }
     }
   }

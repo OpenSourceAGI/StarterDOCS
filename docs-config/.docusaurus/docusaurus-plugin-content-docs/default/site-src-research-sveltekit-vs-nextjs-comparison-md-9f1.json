@@ -5,7 +5,7 @@
   "source": "@site/src/research/sveltekit_vs_nextjs_comparison.md",
   "sourceDirName": "research",
   "slug": "/research/sveltekit_vs_nextjs_comparison",
-  "permalink": "/docs/research/sveltekit_vs_nextjs_comparison",
+  "permalink": "/research/sveltekit_vs_nextjs_comparison",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/sveltekit_vs_nextjs_comparison.md",
@@ -15,6 +15,6 @@
   "sidebar": "default",
   "previous": {
     "title": "💼 Job Platforms",
-    "permalink": "/docs/research/job_platforms_table"
+    "permalink": "/research/job_platforms_table"
   }
 }

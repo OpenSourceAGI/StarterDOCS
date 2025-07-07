@@ -5,7 +5,7 @@
   "source": "@site/src/functions/lib/server/schema.md",
   "sourceDirName": "functions/lib/server",
   "slug": "/functions/lib/server/schema",
-  "permalink": "/docs/functions/lib/server/schema",
+  "permalink": "/functions/lib/server/schema",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/server/schema.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "ratelimits",
-    "permalink": "/docs/functions/lib/server/ratelimits"
+    "permalink": "/functions/lib/server/ratelimits"
   },
   "next": {
     "title": "types",
-    "permalink": "/docs/functions/lib/server/types"
+    "permalink": "/functions/lib/server/types"
   }
 }

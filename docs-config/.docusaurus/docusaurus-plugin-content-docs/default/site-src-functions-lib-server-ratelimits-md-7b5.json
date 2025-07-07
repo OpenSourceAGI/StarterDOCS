@@ -5,7 +5,7 @@
   "source": "@site/src/functions/lib/server/ratelimits.md",
   "sourceDirName": "functions/lib/server",
   "slug": "/functions/lib/server/ratelimits",
-  "permalink": "/docs/functions/lib/server/ratelimits",
+  "permalink": "/functions/lib/server/ratelimits",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/server/ratelimits.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "email",
-    "permalink": "/docs/functions/lib/server/email"
+    "permalink": "/functions/lib/server/email"
   },
   "next": {
     "title": "schema",
-    "permalink": "/docs/functions/lib/server/schema"
+    "permalink": "/functions/lib/server/schema"
   }
 }

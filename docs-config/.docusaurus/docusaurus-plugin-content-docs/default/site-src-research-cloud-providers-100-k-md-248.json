@@ -5,7 +5,7 @@
   "source": "@site/src/research/Cloud Providers 100K.md",
   "sourceDirName": "research",
   "slug": "/research/Cloud Providers 100K",
-  "permalink": "/docs/research/Cloud Providers 100K",
+  "permalink": "/research/Cloud Providers 100K",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/Cloud Providers 100K.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "+layout",
-    "permalink": "/docs/functions/routes/+layout"
+    "permalink": "/functions/routes/+layout"
   },
   "next": {
     "title": "💳 Payment Processors",
-    "permalink": "/docs/research/Payment Processor"
+    "permalink": "/research/Payment Processor"
   }
 }

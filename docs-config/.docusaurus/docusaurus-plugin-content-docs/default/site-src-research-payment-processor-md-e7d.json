@@ -5,7 +5,7 @@
   "source": "@site/src/research/Payment Processor.md",
   "sourceDirName": "research",
   "slug": "/research/Payment Processor",
-  "permalink": "/docs/research/Payment Processor",
+  "permalink": "/research/Payment Processor",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/Payment Processor.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "☁️ Cloud Provider Costs",
-    "permalink": "/docs/research/Cloud Providers 100K"
+    "permalink": "/research/Cloud Providers 100K"
   },
   "next": {
     "title": "📊 Top Developer Tools By Category",
-    "permalink": "/docs/research/Top Dev Tools"
+    "permalink": "/research/Top Dev Tools"
   }
 }

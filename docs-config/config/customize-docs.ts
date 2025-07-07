@@ -26,6 +26,7 @@ export default {
   favicon: "/favicon.ico",
   enableFasterBuildV4: false,
   enableReadmeAsHome: true,
+  usePathSlashDocs: false,
   topbar: [
     {
       to: "/functions",

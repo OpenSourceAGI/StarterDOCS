@@ -5,7 +5,7 @@
   "source": "@site/src/functions/lib/hooks/is-mobile.svelte.md",
   "sourceDirName": "functions/lib/hooks",
   "slug": "/functions/lib/hooks/is-mobile.svelte",
-  "permalink": "/docs/functions/lib/hooks/is-mobile.svelte",
+  "permalink": "/functions/lib/hooks/is-mobile.svelte",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/hooks/is-mobile.svelte.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "customize-site",
-    "permalink": "/docs/functions/lib/customize-site"
+    "permalink": "/functions/lib/customize-site"
   },
   "next": {
     "title": "auth",
-    "permalink": "/docs/functions/lib/server/auth"
+    "permalink": "/functions/lib/server/auth"
   }
 }

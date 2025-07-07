@@ -5,7 +5,7 @@
   "source": "@site/src/research/Top Dev Tools.md",
   "sourceDirName": "research",
   "slug": "/research/Top Dev Tools",
-  "permalink": "/docs/research/Top Dev Tools",
+  "permalink": "/research/Top Dev Tools",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/Top Dev Tools.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "💳 Payment Processors",
-    "permalink": "/docs/research/Payment Processor"
+    "permalink": "/research/Payment Processor"
   },
   "next": {
     "title": "🛠️ All Development Tools List",
-    "permalink": "/docs/research/all-dev-tools"
+    "permalink": "/research/all-dev-tools"
   }
 }

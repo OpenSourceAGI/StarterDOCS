@@ -27,7 +27,7 @@ export default {
   },
   "title": "svelte-starter-docs",
   "url": "https://starterdocs.js.org",
-  "baseUrl": "/docs/",
+  "baseUrl": "/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",
   "favicon": "/favicon.ico",

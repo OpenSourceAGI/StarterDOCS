@@ -5,7 +5,7 @@
   "source": "@site/src/functions/index.md",
   "sourceDirName": "functions",
   "slug": "/functions/",
-  "permalink": "/docs/functions/",
+  "permalink": "/functions/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/index.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "hooks.server",
-    "permalink": "/docs/functions/hooks.server"
+    "permalink": "/functions/hooks.server"
   },
   "next": {
     "title": "icons-1",
-    "permalink": "/docs/functions/lib/components/icons-1"
+    "permalink": "/functions/lib/components/icons-1"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/src/functions/global.md",
   "sourceDirName": "functions",
   "slug": "/functions/global",
-  "permalink": "/docs/functions/global",
+  "permalink": "/functions/global",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/global.md",
@@ -15,6 +15,6 @@
   "sidebar": "default",
   "next": {
     "title": "hooks.server",
-    "permalink": "/docs/functions/hooks.server"
+    "permalink": "/functions/hooks.server"
   }
 }

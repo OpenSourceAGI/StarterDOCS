@@ -5,7 +5,7 @@
   "source": "@site/src/functions/lib/server/validations.md",
   "sourceDirName": "functions/lib/server",
   "slug": "/functions/lib/server/validations",
-  "permalink": "/docs/functions/lib/server/validations",
+  "permalink": "/functions/lib/server/validations",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/server/validations.md",
@@ -15,10 +15,10 @@
   "sidebar": "default",
   "previous": {
     "title": "users",
-    "permalink": "/docs/functions/lib/server/users"
+    "permalink": "/functions/lib/server/users"
   },
   "next": {
     "title": "server-1",
-    "permalink": "/docs/functions/lib/server-1"
+    "permalink": "/functions/lib/server-1"
   }
 }
