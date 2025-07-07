@@ -5,20 +5,20 @@
   "source": "@site/src/research/job_platforms_table.md",
   "sourceDirName": "research",
   "slug": "/research/job_platforms_table",
-  "permalink": "/research/job_platforms_table",
+  "permalink": "/docs/research/job_platforms_table",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/research/job_platforms_table.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/job_platforms_table.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "🛠️ All Development Tools List",
-    "permalink": "/research/all-dev-tools"
+    "permalink": "/docs/research/all-dev-tools"
   },
   "next": {
     "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
-    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+    "permalink": "/docs/research/sveltekit_vs_nextjs_comparison"
   }
 }

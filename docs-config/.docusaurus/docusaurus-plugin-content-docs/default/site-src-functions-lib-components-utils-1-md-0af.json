@@ -5,20 +5,20 @@
   "source": "@site/src/functions/lib/components/utils-1.md",
   "sourceDirName": "functions/lib/components",
   "slug": "/functions/lib/components/utils-1",
-  "permalink": "/functions/lib/components/utils-1",
+  "permalink": "/docs/functions/lib/components/utils-1",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/components/utils-1.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/components/utils-1.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "auth-client",
-    "permalink": "/functions/lib/components/utils/auth-client"
+    "permalink": "/docs/functions/lib/components/utils/auth-client"
   },
   "next": {
     "title": "utils",
-    "permalink": "/functions/lib/components/utils"
+    "permalink": "/docs/functions/lib/components/utils"
   }
 }

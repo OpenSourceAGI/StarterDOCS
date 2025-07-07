@@ -5,20 +5,20 @@
   "source": "@site/src/functions/routes/+layout.md",
   "sourceDirName": "functions/routes",
   "slug": "/functions/routes/+layout",
-  "permalink": "/functions/routes/+layout",
+  "permalink": "/docs/functions/routes/+layout",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/routes/+layout.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/routes/+layout.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "modules",
-    "permalink": "/functions/modules"
+    "permalink": "/docs/functions/modules"
   },
   "next": {
     "title": "☁️ Cloud Provider Costs",
-    "permalink": "/research/Cloud Providers 100K"
+    "permalink": "/docs/research/Cloud Providers 100K"
   }
 }

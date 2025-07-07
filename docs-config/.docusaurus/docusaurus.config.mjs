@@ -6,18 +6,18 @@
 export default {
   "future": {
     "v4": {
-      "removeLegacyPostBuildHeadAttribute": true,
+      "removeLegacyPostBuildHeadAttribute": false,
       "useCssCascadeLayers": false
     },
     "experimental_faster": {
-      "swcJsLoader": true,
-      "swcJsMinimizer": true,
-      "swcHtmlMinimizer": true,
-      "lightningCssMinimizer": true,
-      "mdxCrossCompilerCache": true,
-      "rspackBundler": true,
-      "rspackPersistentCache": true,
-      "ssgWorkerThreads": true
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
     },
     "experimental_storage": {
       "type": "localStorage",
@@ -27,10 +27,10 @@ export default {
   },
   "title": "svelte-starter-docs",
   "url": "https://starterdocs.js.org",
-  "baseUrl": "/",
+  "baseUrl": "/docs/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",
-  "favicon": "/icon.png",
+  "favicon": "/favicon.ico",
   "projectName": "svelte-starter-docs",
   "presets": [
     [
@@ -39,7 +39,7 @@ export default {
         "docs": {
           "path": "src",
           "routeBasePath": "/",
-          "editUrl": "https://github.com/your-username/your-repo/tree/master/",
+          "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/",
           "sidebarPath": "./config/sidebars.ts"
         },
         "blog": false,
@@ -67,7 +67,7 @@ export default {
         "tsconfig": "../tsconfig.json",
         "out": "./src/functions",
         "readme": "../README.md",
-        "sourceLinkTemplate": "https://github.com/your-username/your-repo/tree/master/{path}#L{line}",
+        "sourceLinkTemplate": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/{path}#L{line}",
         "disableSources": false,
         "sidebar": {
           "pretty": true
@@ -105,7 +105,7 @@ export default {
       "title": "svelte-starter-docs Docs",
       "logo": {
         "alt": "logo",
-        "src": "/icon.png",
+        "src": "/apple-touch-icon.png",
         "href": "/"
       },
       "items": [

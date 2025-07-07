@@ -7,7 +7,7 @@ const account: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:134
+Defined in: [src/lib/server/schema.ts:134](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L134)
 
 ***
 
@@ -18,7 +18,7 @@ const articles: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:6
+Defined in: [src/lib/server/schema.ts:6](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L6)
 
 **************** INDEX & CHATS ******************
 
@@ -31,7 +31,7 @@ const chats: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:34
+Defined in: [src/lib/server/schema.ts:34](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L34)
 
 ***
 
@@ -42,7 +42,7 @@ const files: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:66
+Defined in: [src/lib/server/schema.ts:66](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L66)
 
 ************  FILES & TEAMS  ***************
 
@@ -55,7 +55,7 @@ const messages: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:23
+Defined in: [src/lib/server/schema.ts:23](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L23)
 
 ***
 
@@ -66,7 +66,7 @@ const session: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:121
+Defined in: [src/lib/server/schema.ts:121](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L121)
 
 ***
 
@@ -77,7 +77,7 @@ const teams: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:82
+Defined in: [src/lib/server/schema.ts:82](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L82)
 
 ***
 
@@ -88,7 +88,7 @@ const user: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:102
+Defined in: [src/lib/server/schema.ts:102](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L102)
 
 ************  USER & AUTH MODELS  ***************
 
@@ -101,7 +101,7 @@ const userFavorites: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:41
+Defined in: [src/lib/server/schema.ts:41](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L41)
 
 ***
 
@@ -112,7 +112,7 @@ const userFileIndex: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:93
+Defined in: [src/lib/server/schema.ts:93](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L93)
 
 ***
 
@@ -123,7 +123,7 @@ const userMemories: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:53
+Defined in: [src/lib/server/schema.ts:53](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L53)
 
 ***
 
@@ -134,4 +134,4 @@ const verification: SQLiteTableWithColumns<{
 }>;
 ```
 
-Defined in: src/lib/server/schema.ts:156
+Defined in: [src/lib/server/schema.ts:156](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/schema.ts#L156)

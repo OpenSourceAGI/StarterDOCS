@@ -5,20 +5,20 @@
   "source": "@site/src/functions/lib/server/types.md",
   "sourceDirName": "functions/lib/server",
   "slug": "/functions/lib/server/types",
-  "permalink": "/functions/lib/server/types",
+  "permalink": "/docs/functions/lib/server/types",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/server/types.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/server/types.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "schema",
-    "permalink": "/functions/lib/server/schema"
+    "permalink": "/docs/functions/lib/server/schema"
   },
   "next": {
     "title": "users",
-    "permalink": "/functions/lib/server/users"
+    "permalink": "/docs/functions/lib/server/users"
   }
 }

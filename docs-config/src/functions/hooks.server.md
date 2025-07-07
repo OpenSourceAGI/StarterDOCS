@@ -6,7 +6,7 @@
 const allowCORSAccessAPI: Handle;
 ```
 
-Defined in: [src/hooks.server.ts:46](https://github.com/your-username/your-repo/tree/master/src/hooks.server.ts#L46)
+Defined in: [src/hooks.server.ts:46](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/hooks.server.ts#L46)
 
 Enable API access for users with valid API keys and allow CORS.
 
@@ -26,7 +26,7 @@ RequestEvent, resolve: Function
 const handle: Handle;
 ```
 
-Defined in: [src/hooks.server.ts:97](https://github.com/your-username/your-repo/tree/master/src/hooks.server.ts#L97)
+Defined in: [src/hooks.server.ts:97](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/hooks.server.ts#L97)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/hooks.server.ts:97](https://github.com/your-username/your-repo/
 function handleAuth(__namedParameters: object): Promise<any>;
 ```
 
-Defined in: [src/hooks.server.ts:23](https://github.com/your-username/your-repo/tree/master/src/hooks.server.ts#L23)
+Defined in: [src/hooks.server.ts:23](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/hooks.server.ts#L23)
 
 ### Parameters
 

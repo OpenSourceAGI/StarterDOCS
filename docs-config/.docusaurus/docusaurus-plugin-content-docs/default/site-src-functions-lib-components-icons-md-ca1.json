@@ -5,20 +5,20 @@
   "source": "@site/src/functions/lib/components/icons.md",
   "sourceDirName": "functions/lib/components",
   "slug": "/functions/lib/components/icons",
-  "permalink": "/functions/lib/components/icons",
+  "permalink": "/docs/functions/lib/components/icons",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/components/icons.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/components/icons.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "icons-1",
-    "permalink": "/functions/lib/components/icons-1"
+    "permalink": "/docs/functions/lib/components/icons-1"
   },
   "next": {
     "title": "auth-client",
-    "permalink": "/functions/lib/components/utils/auth-client"
+    "permalink": "/docs/functions/lib/components/utils/auth-client"
   }
 }

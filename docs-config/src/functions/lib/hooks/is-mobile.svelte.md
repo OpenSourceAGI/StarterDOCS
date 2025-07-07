@@ -2,7 +2,7 @@
 
 ## IsMobile
 
-Defined in: src/lib/hooks/is-mobile.svelte.ts:5
+Defined in: [src/lib/hooks/is-mobile.svelte.ts:5](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/hooks/is-mobile.svelte.ts#L5)
 
 ### Extends
 
@@ -16,7 +16,7 @@ Defined in: src/lib/hooks/is-mobile.svelte.ts:5
 new IsMobile(breakpoint: number): IsMobile;
 ```
 
-Defined in: src/lib/hooks/is-mobile.svelte.ts:6
+Defined in: [src/lib/hooks/is-mobile.svelte.ts:6](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/hooks/is-mobile.svelte.ts#L6)
 
 ##### Parameters
 

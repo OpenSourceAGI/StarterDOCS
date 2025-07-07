@@ -6,7 +6,7 @@
 const APP_EMAIL: string;
 ```
 
-Defined in: src/lib/customize-site.ts:9
+Defined in: [src/lib/customize-site.ts:9](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L9)
 
 Domain Specific Customizations
 
@@ -18,7 +18,7 @@ Domain Specific Customizations
 const APP_ICON: string;
 ```
 
-Defined in: src/lib/customize-site.ts:10
+Defined in: [src/lib/customize-site.ts:10](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L10)
 
 Domain Specific Customizations
 
@@ -30,7 +30,7 @@ Domain Specific Customizations
 const APP_NAME: "Starter Docs" = "Starter Docs";
 ```
 
-Defined in: src/lib/customize-site.ts:7
+Defined in: [src/lib/customize-site.ts:7](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L7)
 
 Domain Specific Customizations
 
@@ -42,7 +42,7 @@ Domain Specific Customizations
 const APP_SLOGAN: "Svelte Starter Full Stack App with Docs and API" = "Svelte Starter Full Stack App with Docs and API";
 ```
 
-Defined in: src/lib/customize-site.ts:8
+Defined in: [src/lib/customize-site.ts:8](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L8)
 
 Domain Specific Customizations
 
@@ -54,7 +54,7 @@ Domain Specific Customizations
 const DEV: boolean;
 ```
 
-Defined in: src/lib/customize-site.ts:4
+Defined in: [src/lib/customize-site.ts:4](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L4)
 
 Domain Specific Customizations
 
@@ -66,7 +66,7 @@ Domain Specific Customizations
 const GOOGLE_ANALYTICS: "your-google-analytics-id" = "your-google-analytics-id";
 ```
 
-Defined in: src/lib/customize-site.ts:11
+Defined in: [src/lib/customize-site.ts:11](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L11)
 
 Domain Specific Customizations
 
@@ -78,7 +78,7 @@ Domain Specific Customizations
 const LAST_REVISED_DATE: "January 1, 2025" = "January 1, 2025";
 ```
 
-Defined in: src/lib/customize-site.ts:13
+Defined in: [src/lib/customize-site.ts:13](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L13)
 
 Domain Specific Customizations
 
@@ -90,7 +90,7 @@ Domain Specific Customizations
 const listFooterLinks: object[];
 ```
 
-Defined in: src/lib/customize-site.ts:14
+Defined in: [src/lib/customize-site.ts:14](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L14)
 
 Domain Specific Customizations
 
@@ -124,7 +124,7 @@ Domain Specific Customizations
 </td>
 <td>
 
-src/lib/customize-site.ts:15
+[src/lib/customize-site.ts:15](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L15)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ src/lib/customize-site.ts:15
 </td>
 <td>
 
-src/lib/customize-site.ts:15
+[src/lib/customize-site.ts:15](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L15)
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ src/lib/customize-site.ts:15
 </td>
 <td>
 
-src/lib/customize-site.ts:15
+[src/lib/customize-site.ts:15](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L15)
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ src/lib/customize-site.ts:15
 const PUBLIC_DOMAIN: "http://localhost:5173" | "https://starterdocs.com";
 ```
 
-Defined in: src/lib/customize-site.ts:5
+Defined in: [src/lib/customize-site.ts:5](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L5)
 
 Domain Specific Customizations
 
@@ -195,7 +195,7 @@ Domain Specific Customizations
 const PUBLIC_GOOGLE_CLIENT_ID: "your-google-client-id-here" = "your-google-client-id-here";
 ```
 
-Defined in: src/lib/customize-site.ts:6
+Defined in: [src/lib/customize-site.ts:6](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L6)
 
 Domain Specific Customizations
 
@@ -207,6 +207,6 @@ Domain Specific Customizations
 const SERVER_API_URL: "/api/" = "/api/";
 ```
 
-Defined in: src/lib/customize-site.ts:12
+Defined in: [src/lib/customize-site.ts:12](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/customize-site.ts#L12)
 
 Domain Specific Customizations

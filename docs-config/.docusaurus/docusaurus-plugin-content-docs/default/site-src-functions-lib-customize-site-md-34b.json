@@ -5,20 +5,20 @@
   "source": "@site/src/functions/lib/customize-site.md",
   "sourceDirName": "functions/lib",
   "slug": "/functions/lib/customize-site",
-  "permalink": "/functions/lib/customize-site",
+  "permalink": "/docs/functions/lib/customize-site",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/customize-site.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/customize-site.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "utils",
-    "permalink": "/functions/lib/components/utils"
+    "permalink": "/docs/functions/lib/components/utils"
   },
   "next": {
     "title": "is-mobile.svelte",
-    "permalink": "/functions/lib/hooks/is-mobile.svelte"
+    "permalink": "/docs/functions/lib/hooks/is-mobile.svelte"
   }
 }

@@ -6,7 +6,7 @@
 type DeviceInfo = object;
 ```
 
-Defined in: src/lib/components/utils/index.ts:52
+Defined in: [src/lib/components/utils/index.ts:52](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L52)
 
 Device information object
 
@@ -18,7 +18,7 @@ Device information object
 optional isMobile: boolean;
 ```
 
-Defined in: src/lib/components/utils/index.ts:54
+Defined in: [src/lib/components/utils/index.ts:54](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L54)
 
 True if the screen is small size like on mobile web, updated on resize
 
@@ -28,7 +28,7 @@ True if the screen is small size like on mobile web, updated on resize
 optional os: "Windows" | "Mac" | "Linux" | "Android" | "iOS" | "Other";
 ```
 
-Defined in: src/lib/components/utils/index.ts:56
+Defined in: [src/lib/components/utils/index.ts:56](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L56)
 
 The user's device OS
 
@@ -40,7 +40,7 @@ The user's device OS
 type WithElementRef<T, U> = T & object;
 ```
 
-Defined in: src/lib/components/utils/index.ts:94
+Defined in: [src/lib/components/utils/index.ts:94](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L94)
 
 ### Type declaration
 
@@ -66,7 +66,7 @@ Defined in: src/lib/components/utils/index.ts:94
 </td>
 <td>
 
-src/lib/components/utils/index.ts:95
+[src/lib/components/utils/index.ts:95](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L95)
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ src/lib/components/utils/index.ts:95
 type WithoutChild<T> = T extends object ? Omit<T, "child"> : T;
 ```
 
-Defined in: src/lib/components/utils/index.ts:88
+Defined in: [src/lib/components/utils/index.ts:88](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L88)
 
 ### Type Parameters
 
@@ -147,7 +147,7 @@ Defined in: src/lib/components/utils/index.ts:88
 type WithoutChildren<T> = T extends object ? Omit<T, "children"> : T;
 ```
 
-Defined in: src/lib/components/utils/index.ts:90
+Defined in: [src/lib/components/utils/index.ts:90](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L90)
 
 ### Type Parameters
 
@@ -176,7 +176,7 @@ Defined in: src/lib/components/utils/index.ts:90
 type WithoutChildrenOrChild<T> = WithoutChildren<WithoutChild<T>>;
 ```
 
-Defined in: src/lib/components/utils/index.ts:93
+Defined in: [src/lib/components/utils/index.ts:93](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L93)
 
 ### Type Parameters
 
@@ -205,7 +205,7 @@ Defined in: src/lib/components/utils/index.ts:93
 function cn(...inputs: ClassValue[]): string;
 ```
 
-Defined in: src/lib/components/utils/index.ts:45
+Defined in: [src/lib/components/utils/index.ts:45](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L45)
 
 Utility function for merging Tailwind classes, needed for
 [shadcn-svelte.](https://next.shadcn-svelte.com/docs/migration/svelte-5#update-utils)
@@ -253,7 +253,7 @@ class name
 function loadHeadTags(options: LoadHeadTagsOptions): string;
 ```
 
-Defined in: src/lib/components/utils/index.ts:115
+Defined in: [src/lib/components/utils/index.ts:115](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L115)
 
 Generates HTML head tags including fonts, analytics, and meta tags
 
@@ -302,7 +302,7 @@ Complete HTML head tags string if shouldAppend is false, otherwise void
 function setStateInURL(stateObject: Record<string, string>, addToBrowserHistory: boolean): object;
 ```
 
-Defined in: src/lib/components/utils/index.ts:20
+Defined in: [src/lib/components/utils/index.ts:20](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L20)
 
 Adds variable state (like query, active tab. etc) to 
 the URL so that the state is preserved in a sharable URL 
@@ -391,7 +391,7 @@ let {view, q} = setStateInURL();
 function setupMobileView(deviceInfo: DeviceInfo): void;
 ```
 
-Defined in: src/lib/components/utils/index.ts:65
+Defined in: [src/lib/components/utils/index.ts:65](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/index.ts#L65)
 
 Checks if the current view is a mobile view
 Updates deviceInfo.isMobile state based on the window width

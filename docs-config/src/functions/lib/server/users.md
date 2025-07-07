@@ -6,7 +6,7 @@
 function cancelStripeCustomerSubscriptions(email: string, env: any): Promise<void>;
 ```
 
-Defined in: src/lib/server/users.ts:141
+Defined in: [src/lib/server/users.ts:141](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L141)
 
 Cancels all subscriptions for a given customer email
 
@@ -66,7 +66,7 @@ Cancels all subscriptions for a given customer email
 function createApiKey(length?: number): string;
 ```
 
-Defined in: src/lib/server/users.ts:117
+Defined in: [src/lib/server/users.ts:117](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L117)
 
 Generates a random alphanumeric key.
 
@@ -121,7 +121,7 @@ The API key
 function createUser(db: any, newUser: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:12
+Defined in: [src/lib/server/users.ts:12](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L12)
 
 Creates a new user
 
@@ -181,7 +181,7 @@ Creates a new user
 function deleteUserById(db: any, id: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:102
+Defined in: [src/lib/server/users.ts:102](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L102)
 
 Deletes a user by id
 
@@ -241,7 +241,7 @@ Deletes a user by id
 function getAlluser(db: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:35
+Defined in: [src/lib/server/users.ts:35](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L35)
 
 Gets all user
 
@@ -286,7 +286,7 @@ Gets all user
 function getStripeManageSubscriptionURL(email: any, env: any): Promise<string>;
 ```
 
-Defined in: src/lib/server/users.ts:175
+Defined in: [src/lib/server/users.ts:175](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L175)
 
 ### Parameters
 
@@ -337,7 +337,7 @@ Defined in: src/lib/server/users.ts:175
 function getUserByEmail(db: any, email: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:45
+Defined in: [src/lib/server/users.ts:45](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L45)
 
 Gets a user by email
 
@@ -397,7 +397,7 @@ Gets a user by email
 function getUserById(db: any, id: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:57
+Defined in: [src/lib/server/users.ts:57](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L57)
 
 Gets a user by id
 
@@ -457,7 +457,7 @@ Gets a user by id
 function getUserByUsername(db: any, name: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:69
+Defined in: [src/lib/server/users.ts:69](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L69)
 
 Gets a user by username
 
@@ -522,7 +522,7 @@ function updateUserById(
    userData: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/users.ts:82
+Defined in: [src/lib/server/users.ts:82](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L82)
 
 Updates a user by id
 
@@ -597,7 +597,7 @@ Updates a user by id
 function validateApiKey(db: any, apiKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/users.ts:125
+Defined in: [src/lib/server/users.ts:125](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/users.ts#L125)
 
 ### Parameters
 

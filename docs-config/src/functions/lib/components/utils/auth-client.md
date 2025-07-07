@@ -6,7 +6,7 @@
 const authClient: object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object & object;
 ```
 
-Defined in: src/lib/components/utils/auth-client.ts:13
+Defined in: [src/lib/components/utils/auth-client.ts:13](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/components/utils/auth-client.ts#L13)
 
 ### Create Better Auth Client with One Tap
 

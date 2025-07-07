@@ -5,20 +5,20 @@
   "source": "@site/src/functions/hooks.server.md",
   "sourceDirName": "functions",
   "slug": "/functions/hooks.server",
-  "permalink": "/functions/hooks.server",
+  "permalink": "/docs/functions/hooks.server",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/hooks.server.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/hooks.server.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "global",
-    "permalink": "/functions/global"
+    "permalink": "/docs/functions/global"
   },
   "next": {
     "title": "index",
-    "permalink": "/functions/"
+    "permalink": "/docs/functions/"
   }
 }

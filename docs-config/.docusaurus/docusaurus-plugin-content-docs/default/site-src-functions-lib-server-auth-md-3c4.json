@@ -5,20 +5,20 @@
   "source": "@site/src/functions/lib/server/auth.md",
   "sourceDirName": "functions/lib/server",
   "slug": "/functions/lib/server/auth",
-  "permalink": "/functions/lib/server/auth",
+  "permalink": "/docs/functions/lib/server/auth",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/your-username/your-repo/tree/master/src/functions/lib/server/auth.md",
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/functions/lib/server/auth.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
     "title": "is-mobile.svelte",
-    "permalink": "/functions/lib/hooks/is-mobile.svelte"
+    "permalink": "/docs/functions/lib/hooks/is-mobile.svelte"
   },
   "next": {
     "title": "drizzle.config",
-    "permalink": "/functions/lib/server/drizzle.config"
+    "permalink": "/docs/functions/lib/server/drizzle.config"
   }
 }

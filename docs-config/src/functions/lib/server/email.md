@@ -10,7 +10,7 @@ function sendEmail(
    authResendKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/email.ts:58
+Defined in: [src/lib/server/email.ts:58](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/email.ts#L58)
 
 Sends an email to the specified email address.
 
@@ -118,7 +118,7 @@ function sendEmailChangeEmail(
    authResendKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/email.ts:137
+Defined in: [src/lib/server/email.ts:137](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/email.ts#L137)
 
 ### Parameters
 
@@ -197,7 +197,7 @@ function sendEmailVerificationEmail(
    authResendKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/email.ts:89
+Defined in: [src/lib/server/email.ts:89](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/email.ts#L89)
 
 Sends a verification email to the specified email address.
 
@@ -300,7 +300,7 @@ function sendPasswordResetEmail(
    authResendKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/email.ts:122
+Defined in: [src/lib/server/email.ts:122](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/email.ts#L122)
 
 ### Parameters
 
@@ -366,7 +366,7 @@ function sendWelcomeEmail(
    authResendKey: string): Promise<boolean>;
 ```
 
-Defined in: src/lib/server/email.ts:106
+Defined in: [src/lib/server/email.ts:106](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/email.ts#L106)
 
 ### Parameters
 

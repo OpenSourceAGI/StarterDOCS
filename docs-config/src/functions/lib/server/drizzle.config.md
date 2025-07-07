@@ -6,7 +6,7 @@
 default: object;
 ```
 
-Defined in: src/lib/server/drizzle.config.ts:46
+Defined in: [src/lib/server/drizzle.config.ts:46](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L46)
 
 ### Type declaration
 
@@ -38,7 +38,7 @@ Defined in: src/lib/server/drizzle.config.ts:46
 </td>
 <td>
 
-src/lib/server/drizzle.config.ts:50
+[src/lib/server/drizzle.config.ts:50](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L50)
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ src/lib/server/drizzle.config.ts:50
 </td>
 <td>
 
-src/lib/server/drizzle.config.ts:49
+[src/lib/server/drizzle.config.ts:49](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L49)
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ src/lib/server/drizzle.config.ts:49
 </td>
 <td>
 
-src/lib/server/drizzle.config.ts:48
+[src/lib/server/drizzle.config.ts:48](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L48)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ src/lib/server/drizzle.config.ts:48
 </td>
 <td>
 
-src/lib/server/drizzle.config.ts:47
+[src/lib/server/drizzle.config.ts:47](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L47)
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ src/lib/server/drizzle.config.ts:47
 function getLocalDb(): string;
 ```
 
-Defined in: src/lib/server/drizzle.config.ts:8
+Defined in: [src/lib/server/drizzle.config.ts:8](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/drizzle.config.ts#L8)
 
 ### Returns
 

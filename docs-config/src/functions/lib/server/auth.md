@@ -6,7 +6,7 @@
 auth: any;
 ```
 
-Defined in: src/lib/server/auth.ts:39
+Defined in: [src/lib/server/auth.ts:39](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L39)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: src/lib/server/auth.ts:39
 const permissions: object;
 ```
 
-Defined in: src/lib/server/auth.ts:115
+Defined in: [src/lib/server/auth.ts:115](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L115)
 
 ### Type declaration
 
@@ -42,7 +42,7 @@ Defined in: src/lib/server/auth.ts:115
 </td>
 <td>
 
-src/lib/server/auth.ts:116
+[src/lib/server/auth.ts:116](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L116)
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ src/lib/server/auth.ts:116
 </td>
 <td>
 
-src/lib/server/auth.ts:117
+[src/lib/server/auth.ts:117](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L117)
 
 </td>
 </tr>
@@ -74,7 +74,7 @@ src/lib/server/auth.ts:117
 function checkAuthorization(__namedParameters: object): Promise<any>;
 ```
 
-Defined in: src/lib/server/auth.ts:124
+Defined in: [src/lib/server/auth.ts:124](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L124)
 
 SvelteKit hook for checking user authorization and handling route protection
 
@@ -139,7 +139,7 @@ SvelteKit hook for checking user authorization and handling route protection
 function createAuth(env: any): any;
 ```
 
-Defined in: src/lib/server/auth.ts:41
+Defined in: [src/lib/server/auth.ts:41](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L41)
 
 ### Parameters
 
@@ -178,7 +178,7 @@ Defined in: src/lib/server/auth.ts:41
 function initAuthRouteHandler(__namedParameters: object): Promise<any>;
 ```
 
-Defined in: src/lib/server/auth.ts:13
+Defined in: [src/lib/server/auth.ts:13](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L13)
 
 ### Parameters
 
@@ -241,7 +241,7 @@ Defined in: src/lib/server/auth.ts:13
 function initDatabase(__namedParameters: object): Promise<any>;
 ```
 
-Defined in: src/lib/server/auth.ts:109
+Defined in: [src/lib/server/auth.ts:109](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L109)
 
 Add drizzle DB to locals.db
 
@@ -306,7 +306,7 @@ Add drizzle DB to locals.db
 function initializeUser(locals: any, request: any): Promise<any>;
 ```
 
-Defined in: src/lib/server/auth.ts:144
+Defined in: [src/lib/server/auth.ts:144](https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/lib/server/auth.ts#L144)
 
 Get user object from locals of the request
 
