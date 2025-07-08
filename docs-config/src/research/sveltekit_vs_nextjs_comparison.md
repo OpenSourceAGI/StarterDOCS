@@ -1,5 +1,4 @@
-# ⚖️ SvelteKit vs Next.js: Complete Framework Comparison
-
+# ⚖️ SvelteKit vs Next.js
 ## 🏗️ Architecture & Core Philosophy
 
 ### SvelteKit: Compile-Time Philosophy

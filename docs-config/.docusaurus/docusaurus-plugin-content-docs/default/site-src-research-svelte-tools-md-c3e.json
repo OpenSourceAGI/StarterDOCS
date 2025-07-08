@@ -1,0 +1,24 @@
+{
+  "id": "research/svelte_tools",
+  "title": "🔧 Svelte Libraries",
+  "description": "🏗️ Frameworks & Starters",
+  "source": "@site/src/research/svelte_tools.md",
+  "sourceDirName": "research",
+  "slug": "/research/svelte_tools",
+  "permalink": "/research/svelte_tools",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/svelte_tools.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "📱 Phone SMS Verification",
+    "permalink": "/research/sms_api_comparison"
+  },
+  "next": {
+    "title": "⚖️ SvelteKit vs Next.js",
+    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+  }
+}

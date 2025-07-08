@@ -24,7 +24,7 @@ export default {
   baseFolder: "./",
   logo: "/apple-touch-icon.png",
   favicon: "/favicon.ico",
-  enableFasterBuildV4: true,
+  // enableFasterBuildV4:  true, 
   enableReadmeAsHome: true,
   usePathSlashDocs: false,
   topbar: [
@@ -39,8 +39,8 @@ export default {
       position: "left",
     },
     {
-      to: "/research/best_svelte_tools",
-      label: "⚡ Svelte Libs",
+      to: "/guides/Server%20Shell%20Setup",
+      label: "⚡ Dev Setup",
       position: "left",
     },
     {

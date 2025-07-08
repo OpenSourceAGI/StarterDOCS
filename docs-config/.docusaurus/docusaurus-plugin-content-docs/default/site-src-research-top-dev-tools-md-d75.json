@@ -1,6 +1,6 @@
 {
   "id": "research/Top Dev Tools",
-  "title": "📊 Top Developer Tools By Category",
+  "title": "📊 Tool Rank: Top Tools By Category",
   "description": "| Category | Tool Rank (best first) | Features  |",
   "source": "@site/src/research/Top Dev Tools.md",
   "sourceDirName": "research",
@@ -18,7 +18,7 @@
     "permalink": "/research/Payment Processor"
   },
   "next": {
-    "title": "👁️‍🗨️ Voice Agent APIs 2025",
-    "permalink": "/research/Voice Agent API"
+    "title": "🆔 Verification ID Providers",
+    "permalink": "/research/Verify ID"
   }
 }

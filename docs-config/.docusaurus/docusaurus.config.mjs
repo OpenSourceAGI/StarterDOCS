@@ -6,18 +6,18 @@
 export default {
   "future": {
     "v4": {
-      "removeLegacyPostBuildHeadAttribute": true,
+      "removeLegacyPostBuildHeadAttribute": false,
       "useCssCascadeLayers": false
     },
     "experimental_faster": {
-      "swcJsLoader": true,
-      "swcJsMinimizer": true,
-      "swcHtmlMinimizer": true,
-      "lightningCssMinimizer": true,
-      "mdxCrossCompilerCache": true,
-      "rspackBundler": true,
-      "rspackPersistentCache": true,
-      "ssgWorkerThreads": true
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
     },
     "experimental_storage": {
       "type": "localStorage",
@@ -120,8 +120,8 @@ export default {
           "position": "left"
         },
         {
-          "to": "/research/best_svelte_tools",
-          "label": "⚡ Svelte Libs",
+          "to": "/guides/Server%20Shell%20Setup",
+          "label": "⚡ Dev Setup",
           "position": "left"
         },
         {

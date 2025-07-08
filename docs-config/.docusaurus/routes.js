@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/',
-    component: ComponentCreator('/', 'f85'),
+    component: ComponentCreator('/', 'cea'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '68f'),
+        component: ComponentCreator('/', 'c83'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '992'),
+            component: ComponentCreator('/', 'ded'),
             routes: [
               {
                 path: '/functions/',
@@ -147,20 +147,32 @@ export default [
                 sidebar: "default"
               },
               {
+                path: '/guides/Server Shell Setup',
+                component: ComponentCreator('/guides/Server Shell Setup', '91f'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
                 path: '/research/all-dev-tools',
                 component: ComponentCreator('/research/all-dev-tools', '2d4'),
                 exact: true,
                 sidebar: "default"
               },
               {
-                path: '/research/best_svelte_tools',
-                component: ComponentCreator('/research/best_svelte_tools', 'd52'),
+                path: '/research/Cloud Providers 100K',
+                component: ComponentCreator('/research/Cloud Providers 100K', 'e88'),
                 exact: true,
                 sidebar: "default"
               },
               {
-                path: '/research/Cloud Providers 100K',
-                component: ComponentCreator('/research/Cloud Providers 100K', 'e88'),
+                path: '/research/Docs Libraries',
+                component: ComponentCreator('/research/Docs Libraries', '654'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
+                path: '/research/editors',
+                component: ComponentCreator('/research/editors', 'd65'),
                 exact: true,
                 sidebar: "default"
               },
@@ -195,6 +207,12 @@ export default [
                 sidebar: "default"
               },
               {
+                path: '/research/svelte_tools',
+                component: ComponentCreator('/research/svelte_tools', '812'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
                 path: '/research/sveltekit_vs_nextjs_comparison',
                 component: ComponentCreator('/research/sveltekit_vs_nextjs_comparison', '59a'),
                 exact: true,
@@ -207,14 +225,20 @@ export default [
                 sidebar: "default"
               },
               {
-                path: '/research/Voice Agent API',
-                component: ComponentCreator('/research/Voice Agent API', '611'),
+                path: '/research/Verify ID',
+                component: ComponentCreator('/research/Verify ID', '78e'),
                 exact: true,
                 sidebar: "default"
               },
               {
-                path: '/setup/Server Shell Setup',
-                component: ComponentCreator('/setup/Server Shell Setup', '658'),
+                path: '/research/visual-intelligence',
+                component: ComponentCreator('/research/visual-intelligence', 'cfa'),
+                exact: true,
+                sidebar: "default"
+              },
+              {
+                path: '/research/Voice Agent API',
+                component: ComponentCreator('/research/Voice Agent API', '611'),
                 exact: true,
                 sidebar: "default"
               },

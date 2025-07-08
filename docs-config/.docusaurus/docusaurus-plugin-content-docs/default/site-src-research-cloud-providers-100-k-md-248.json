@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "+layout",
-    "permalink": "/functions/routes/+layout"
+    "title": "🛠️ Server Shell Setup",
+    "permalink": "/guides/Server Shell Setup"
   },
   "next": {
-    "title": "💳 Payment Processors",
-    "permalink": "/research/Payment Processor"
+    "title": "📚 Documentation Libraries",
+    "permalink": "/research/Docs Libraries"
   }
 }

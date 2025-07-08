@@ -121,6 +121,11 @@
               "sidebar": "default"
             },
             {
+              "id": "guides/Server Shell Setup",
+              "path": "/guides/Server Shell Setup",
+              "sidebar": "default"
+            },
+            {
               "id": "index",
               "path": "/",
               "sidebar": "default"
@@ -131,13 +136,18 @@
               "sidebar": "default"
             },
             {
-              "id": "research/best_svelte_tools",
-              "path": "/research/best_svelte_tools",
+              "id": "research/Cloud Providers 100K",
+              "path": "/research/Cloud Providers 100K",
               "sidebar": "default"
             },
             {
-              "id": "research/Cloud Providers 100K",
-              "path": "/research/Cloud Providers 100K",
+              "id": "research/Docs Libraries",
+              "path": "/research/Docs Libraries",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/editors",
+              "path": "/research/editors",
               "sidebar": "default"
             },
             {
@@ -166,6 +176,11 @@
               "sidebar": "default"
             },
             {
+              "id": "research/svelte_tools",
+              "path": "/research/svelte_tools",
+              "sidebar": "default"
+            },
+            {
               "id": "research/sveltekit_vs_nextjs_comparison",
               "path": "/research/sveltekit_vs_nextjs_comparison",
               "sidebar": "default"
@@ -176,13 +191,18 @@
               "sidebar": "default"
             },
             {
-              "id": "research/Voice Agent API",
-              "path": "/research/Voice Agent API",
+              "id": "research/Verify ID",
+              "path": "/research/Verify ID",
               "sidebar": "default"
             },
             {
-              "id": "setup/Server Shell Setup",
-              "path": "/setup/Server Shell Setup",
+              "id": "research/visual-intelligence",
+              "path": "/research/visual-intelligence",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Voice Agent API",
+              "path": "/research/Voice Agent API",
               "sidebar": "default"
             }
           ],
@@ -203,8 +223,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1751895321797.json",
-        "lunrIndex": "lunr-index-1751895321797.json"
+        "searchDoc": "search-doc-1751954267111.json",
+        "lunrIndex": "lunr-index-1751954267111.json"
       }
     }
   }

@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "default",
   "previous": {
-    "title": "Next.js & React Libraries",
+    "title": "🎯 Next.js & React Libraries",
     "permalink": "/research/nextjs-tools"
   },
   "next": {
-    "title": "⚖️ SvelteKit vs Next.js: Complete Framework Comparison",
-    "permalink": "/research/sveltekit_vs_nextjs_comparison"
+    "title": "🔧 Svelte Libraries",
+    "permalink": "/research/svelte_tools"
   }
 }

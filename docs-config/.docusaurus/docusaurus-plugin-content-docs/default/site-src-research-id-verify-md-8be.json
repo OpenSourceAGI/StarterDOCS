@@ -1,0 +1,24 @@
+{
+  "id": "research/ID Verify",
+  "title": "🆔 ID Verification",
+  "description": "ID Analyzer has established itself as a dominant force in the identity verification market by offering enterprise-grade features at $0.11 per verification, representing the most cost-effective solution available. With an entry-level package of $89 for 1,000 verifications, the company delivers exceptional value in a market where pricing ranges from $0.10 to $2.50+ per verification depending on provider capabilities and target market positioning.",
+  "source": "@site/src/research/ID Verify.md",
+  "sourceDirName": "research",
+  "slug": "/research/ID Verify",
+  "permalink": "/research/ID Verify",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/Svelte-Starter-DOCS/tree/master/src/research/ID Verify.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "📚 Documentation Libraries",
+    "permalink": "/research/Docs Libraries"
+  },
+  "next": {
+    "title": "💳 Payment Processors",
+    "permalink": "/research/Payment Processor"
+  }
+}

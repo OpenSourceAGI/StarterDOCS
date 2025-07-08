@@ -20,9 +20,15 @@
     <a href="https://starterdocs.js.org">📑 Files & Functions Docs (starterdocs.js.org)</a>
 </h3>
 
-### ⚒️ Svelte Serverless Starter DOCS: Drizzle OAuth Cloudflare Svelte
+### ⚒️ Starter DOCS: Drizzle OAuth Cloudflare Svelte
 
-```
+**Docs-Driven Development**: Generate easy-to-understand docs from your JS functions and APIs, to maximize reusable value and make the options clear to everyone.
+
+**Functionally Brilliant, Elegantly Simple Toolkit:** StarterDOCS is to SvelteKit what Next.js is to React: full stack with smart defaults for common needs. It is 
+easy to switch in alternatives: Such as running on AWS/GCE instead of Cloudflare, or using Next/Supabase isntead of Svelte/Cloudflare.
+
+
+```bash
 npx create-starter-app
 ```
 
