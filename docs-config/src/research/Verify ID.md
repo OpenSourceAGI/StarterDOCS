@@ -1,3 +1,7 @@
+-----
+title: 🆔 Verification ID Providers
+-----
+
 # 🆔 Verification ID Providers
 
 ID Analyzer has established itself as a dominant force in the identity verification market by offering **enterprise-grade features at $0.11 per verification**, representing the most cost-effective solution available. With an entry-level package of [$89 for 1,000 verifications](https://www.idanalyzer.com), the company delivers exceptional value in a market where [pricing ranges from $0.10 to $2.50+ per verification](https://bestaiagents.org/blog/id-verification-api-pricing-models-compared/) depending on provider capabilities and target market positioning.

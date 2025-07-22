@@ -1,3 +1,7 @@
+-----
+title: 👄 Language Intelligence Providers
+-----
+
 # 👄 Language Intelligence Providers
 
 ### 👄  Language Intelligence Providers (LIPs)

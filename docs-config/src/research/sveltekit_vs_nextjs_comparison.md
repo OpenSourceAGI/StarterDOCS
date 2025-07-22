@@ -1,3 +1,7 @@
+-----
+title: ⚖️ SvelteKit vs Next.js
+-----
+
 # ⚖️ SvelteKit vs Next.js
 ## 🏗️ Architecture & Core Philosophy
 

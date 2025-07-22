@@ -1,4 +1,8 @@
-# 🔧 Svelte Libraries
+-----
+title: 🔧 Svelte Libraries
+-----
+
+# �� Svelte Libraries
 
 ## 🏗️ **Frameworks & Starters**
 - **[SvelteKit](https://kit.svelte.dev/)** - The official full-stack framework for Svelte apps

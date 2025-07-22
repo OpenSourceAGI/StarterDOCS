@@ -1,3 +1,6 @@
+-----
+title: 🖼️ Visual Intelligence Providers
+-----
 
 # 🖼️ Visual Intelligence Providers
 

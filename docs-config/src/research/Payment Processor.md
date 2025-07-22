@@ -1,3 +1,7 @@
+-----
+title: 💳 Payment Processors
+-----
+
 # 💳 Payment Processors
 
 short summary
@@ -48,7 +52,7 @@ Plaid uses several pricing models, depending on the product:
 - **Sandbox/Testing:** Free for development and testing environments.
 - **Production:** Requires a commercial agreement; contact Plaid for specific rates[5].
 
-> For the most accurate and current pricing, consult Plaid’s official documentation or sales team, as terms may change[5].
+> For the most accurate and current pricing, consult Plaid's official documentation or sales team, as terms may change[5].
 
 ### Summary Table
 
@@ -214,21 +218,21 @@ Chargeback fees are becoming increasingly expensive across the industry, with co
 
 
 #  Astra Payments 
-**Astra Payments** enables instant money transfers primarily by leveraging the **Visa Direct** network and partnerships with financial institutions like Cross River Bank. Here’s how it works and what it costs:
+**Astra Payments** enables instant money transfers primarily by leveraging the **Visa Direct** network and partnerships with financial institutions like Cross River Bank. Here's how it works and what it costs:
 
-- **Push-to-Card Technology:** Astra uses push-to-card payments, which means funds are sent directly from a bank account or card to a recipient’s debit card. This is done using the Visa Direct real-time payment rails, enabling funds to appear instantly and be spendable right away[^1][^5][^6].
-- **API Integration:** Developers and businesses can embed Astra’s payment API into their products, allowing instant transfers between bank accounts and cards without needing to build complex payment infrastructures themselves[^1][^7].
+- **Push-to-Card Technology:** Astra uses push-to-card payments, which means funds are sent directly from a bank account or card to a recipient's debit card. This is done using the Visa Direct real-time payment rails, enabling funds to appear instantly and be spendable right away[^1][^5][^6].
+- **API Integration:** Developers and businesses can embed Astra's payment API into their products, allowing instant transfers between bank accounts and cards without needing to build complex payment infrastructures themselves[^1][^7].
 - **No Cut-Off Times:** Transfers are processed instantly, regardless of weekends or holidays, with no waiting for ACH settlement windows[^4].
-- **No Prefunding Required:** Astra handles settlement and reconciliation automatically, so businesses don’t need to pre-fund accounts or manage operational complexity[^1][^5].
+- **No Prefunding Required:** Astra handles settlement and reconciliation automatically, so businesses don't need to pre-fund accounts or manage operational complexity[^1][^5].
 - **Security and Compliance:** The platform includes built-in compliance, fraud detection, and PCI-compliant SDKs for secure transactions[^1][^5].
 
 
 ### Cost Structure
 
-- **Industry-Standard Fee:** For instant “push” payments to external debit cards, Astra typically charges an **industry-standard fee of 1.5% per transaction**[^2].
+- **Industry-Standard Fee:** For instant "push" payments to external debit cards, Astra typically charges an **industry-standard fee of 1.5% per transaction**[^2].
 - **Cost-Plus Pricing:** Astra offers cost-plus pricing designed to scale with customer growth, making it less costly than traditional wire transfers and competitive with other instant payment providers[^5][^3].
 - **Custom Fees:** Businesses can optionally apply programmatic fees to each transaction to generate additional revenue[^2].
-- **No Additional Infrastructure Fees:** There’s no need for additional compliance, capital commitments, or operational overhead for instant payments[^6].
+- **No Additional Infrastructure Fees:** There's no need for additional compliance, capital commitments, or operational overhead for instant payments[^6].
 
 
 ### Summary Table

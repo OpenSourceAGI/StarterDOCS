@@ -1,3 +1,7 @@
+-----
+title: 💼 Job Platforms
+-----
+
 # 💼 Job Platforms
 
 | Platform | Monthly Visitors/Users | Job Listings | Pricing (Starting) | Job Types/Industries | Key Features |

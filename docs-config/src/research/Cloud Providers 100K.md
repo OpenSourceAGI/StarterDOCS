@@ -1,3 +1,7 @@
+-----
+title: ☁️ Cloud Provider Costs
+-----
+
 # ☁️ Cloud Provider Costs
 
 Supporting 100,000 users requires sophisticated cloud infrastructure with careful cost optimization. After analyzing current 2024-2025 pricing across major providers, this report delivers actionable insights for budget planning and architectural decisions.

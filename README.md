@@ -44,17 +44,22 @@ npx create-starter-app
 
 🎨 [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) + [Bits UI](https://github.com/huntabyte/bits-ui) + [shadcn-svelte](https://github.com/huntabyte/shadcn-svelte) - popular UI components, with  [lucide](https://github.com/lucide-icons/lucide) icons
 
-**Reusable UI Parts:**  [Shadcn Sidebar](https://next.shadcn-svelte.com/blocks), [21st.dev](https://21st.dev/home), [Magic UI Animations](https://animation-svelte.vercel.app/magic) 
 
 📝 [formsnap](https://github.com/svecosystem/formsnap) + [sveltekit-superforms](https://github.com/ciscoheat/sveltekit-superforms) with [zod](https://github.com/colinhacks/zod) validation and [rate-limiting](https://github.com/ciscoheat/sveltekit-rate-limiter) in server memory
 
 ✅ [Vitest](https://vitest.dev/guide/ui) - unit testing UI
 
-⭐ _Extras & Alternatives_: [List of Svelte Libraries](https://github.com/TheComputerM/awesome-svelte#ui-libraries), [Material UI](https://sveltematerialui.com/INSTALL.md), [SkeletonUI](https://www.skeleton.dev/components/app-rail), [Flowbite](https://flowbite-svelte.com/docs/pages/introduction), [Icon sets](https://www.svgrepo.com/collections)
+## ⭐ Extras & Alternative  UI Blocks
 
-📦 Easy to switch in alternatives: Such as running on AWS, GCE, Azure instead of Cloudflare. 
-Change Drizzle setup to connect to any db like Supabase, and add popular platform APIs with Lucia.
-
+1. [Shadcn Sidebar](https://next.shadcn-svelte.com/blocks)
+2. [21st.dev](https://21st.dev/home)
+3. [Magic UI Animations](https://animation-svelte.vercel.app/magic)
+4. [List of Svelte Libraries](https://github.com/TheComputerM/awesome-svelte#ui-libraries)
+5. [Material UI](https://sveltematerialui.com/INSTALL.md)
+6. [SkeletonUI](https://www.skeleton.dev/components/app-rail)
+7. [Flowbite](https://flowbite-svelte.com/docs/pages/introduction)
+8. [Icon sets](https://www.svgrepo.com/collections)
+9. [Shadcn Libraries](https://github.com/birobirobiro/awesome-shadcn-ui)
 
 ### 🖼️ Screenshots
 <p align="center">

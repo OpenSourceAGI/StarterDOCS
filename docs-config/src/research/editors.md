@@ -1,3 +1,6 @@
+-----
+title: 📚 Text Editors
+-----
 
 # 📚  Text Editors
 

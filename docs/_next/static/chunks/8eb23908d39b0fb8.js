@@ -1,0 +1,3 @@
+(globalThis.TURBOPACK=globalThis.TURBOPACK||[]).push(["object"==typeof document?document.currentScript:void 0,{38560:t=>{"use strict";t.s({fetchDocs:()=>r});var e=new Map;async function r(t,{api:r="/api/search",locale:a,tag:s}){let o=new URLSearchParams;o.set("query",t),a&&o.set("locale",a),s&&o.set("tag",Array.isArray(s)?s.join(","):s);let c=`${r}?${o}`,i=e.get(c);if(i)return i;let n=await fetch(c);if(!n.ok)throw Error(await n.text());let l=await n.json();return e.set(c,l),l}}}]);
+
+//# sourceMappingURL=9b3107d85b87188c.js.map

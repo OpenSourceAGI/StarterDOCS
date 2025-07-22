@@ -1,0 +1,3 @@
+module.exports={99404:function(a){var{m:b,e:c}=a;{"use strict";Object.defineProperty(c,"__esModule",{value:!0}),Object.defineProperty(c,"default",{enumerable:!0,get:function(){return d}});let e=a.r(79821),f=a.r(36510);function d(){return(0,e.jsx)(f.HTTPAccessErrorFallback,{status:401,message:"You're not authorized to access this page."})}("function"==typeof c.default||"object"==typeof c.default&&null!==c.default)&&void 0===c.default.__esModule&&(Object.defineProperty(c.default,"__esModule",{value:!0}),Object.assign(c.default,c),b.exports=c.default)}}};
+
+//# sourceMappingURL=53381_next_dist_client_components_unauthorized-error_3022b56e.js.map

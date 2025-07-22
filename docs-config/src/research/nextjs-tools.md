@@ -1,3 +1,6 @@
+-----
+title: 🎯 Next.js & React Libraries
+-----
 # 🎯 Next.js & React Libraries
 
 ## 🎨 UI & Styling

@@ -1,3 +1,7 @@
+-----
+title: 👁️‍🗨️ Voice Agent APIs 2025
+-----
+
 # 👁️‍🗨️ Voice Agent APIs 2025
 
 The leading voice agent APIs offer lifelike speech synthesis, robust conversational logic, and scalable telephony integration. Choose based on your specific needs:
@@ -115,7 +119,7 @@ All platforms offer robust APIs and documentation for deploying advanced voice a
 |------------------|----------------------------------------|--------------------------------------------------------------------------------------------------|-----------------------|
 | **ElevenLabs**   | **Expressive, emotional voice synthesis** | Exceptionally lifelike, emotional voices; supports many languages; voice cloning; API-first      | Free plan; paid from $5/mo; requires pairing with agent logic tools |
 | **PlayHT**       | **Lifelike conversations**               | Real-time, human-like speech; strong NLP; multi-language; easy integration for business use      | See provider for pricing |
-| **OpenAI Voice Agent SDK** | **Conversational logic & workflow automation** | End-to-end agent SDK; “whisper-1” for STT, “tts-1” for TTS; context management; easy handoffs   | See provider for pricing |
+| **OpenAI Voice Agent SDK** | **Conversational logic & workflow automation** | End-to-end agent SDK; "whisper-1" for STT, "tts-1" for TTS; context management; easy handoffs   | See provider for pricing |
 | **Retell AI**    | **Full voice agent platform**            | Build, test, deploy, and monitor production-ready agents; SIP integration; pay-as-you-go pricing | $0.07/min, no platform fees |
 | **Plivo**        | **Customizable business voice agents**   | Choose LLM/TTS; real-time response (30ms); 99.99% uptime; easy integration (OpenAI, ElevenLabs) | $0.003/min per stream |
 | **Deepgram**     | **Speech-to-text & voice analysis**      | Fast, accurate STT; supports many languages; real-time transcription; flexible API               | See provider for pricing |

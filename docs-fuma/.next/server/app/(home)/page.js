@@ -1,0 +1,17 @@
+const CHUNK_PUBLIC_PATH = "server/app/(home)/page.js";
+const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__00b9f124._.js");
+runtime.loadChunk("server/chunks/ssr/53381_next_dist_e3f55e22._.js");
+runtime.loadChunk("server/chunks/ssr/53381_next_dist_f7e1dab3._.js");
+runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__a08f7b60._.js");
+runtime.loadChunk("server/chunks/ssr/53381_next_dist_client_components_ca9cffbf._.js");
+runtime.loadChunk("server/chunks/ssr/53381_next_dist_client_components_forbidden-error_89ddddcd.js");
+runtime.loadChunk("server/chunks/ssr/53381_next_dist_client_components_unauthorized-error_3022b56e.js");
+runtime.loadChunk("server/chunks/ssr/docs-fuma_9b73a928._.js");
+runtime.loadChunk("server/chunks/ssr/53381_651574a5._.js");
+runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__8f94add8._.js");
+runtime.loadChunk("server/chunks/ssr/docs-fuma_bf0809d4._.js");
+runtime.loadChunk("server/chunks/ssr/docs-fuma_e613a995._.js");
+runtime.getOrInstantiateRuntimeModule(69340, CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule(45465, CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule(45465, CHUNK_PUBLIC_PATH).exports;
