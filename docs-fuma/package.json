@@ -6,7 +6,7 @@
     "build": "next build --turbo; bun run start",
     "build:api": "node ./scripts/generate-api-docs.mjs",
     "dev": "next dev --turbo",
-    "start": "npx serve ./out",
+    "start": "npx serve ../docs",
     "check": "fumadocs-mdx && tsc --noEmit"
   },
   "dependencies": {

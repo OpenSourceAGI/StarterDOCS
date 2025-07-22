@@ -77,7 +77,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/docs/guides/research-agent": {
+    "/docs/extractContent": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -91,7 +91,7 @@
       ],
       "initialRevalidateSeconds": false,
       "srcRoute": "/docs/[[...slug]]",
-      "dataRoute": "/docs/guides/research-agent.rsc",
+      "dataRoute": "/docs/extractContent.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -365,7 +365,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/docs/research/job_platforms_table": {
+    "/docs/research/job-platforms": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -379,7 +379,7 @@
       ],
       "initialRevalidateSeconds": false,
       "srcRoute": "/docs/[[...slug]]",
-      "dataRoute": "/docs/research/job_platforms_table.rsc",
+      "dataRoute": "/docs/research/job-platforms.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -548,6 +548,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/docs/[[...slug]]",
       "dataRoute": "/docs/research/verify_sms.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/docs/searchWeb": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/docs/[[...slug]]",
+      "dataRoute": "/docs/searchWeb.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/docs/writeLanguage": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/docs/[[...slug]]",
+      "dataRoute": "/docs/writeLanguage.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",

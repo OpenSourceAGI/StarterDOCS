@@ -2,15 +2,17 @@
 title: ☁️ Cloud Hosting
 ---
 
-Supporting 100,000 users requires sophisticated cloud infrastructure with careful cost optimization. After analyzing current 2024-2025 pricing across major providers, this report delivers actionable insights for budget planning and architectural decisions.
+## 🌐 Cloud Compute Providers
 
-## 🏗️ Technical requirements baseline
-
-For 100,000 registered users, expect **5,000-15,000 peak concurrent users** based on industry patterns. This translates to specific infrastructure needs: 80-320 vCPUs across application servers, 128-256 GB RAM for primary databases, 750 Mbps to 1.5 Gbps peak bandwidth, and 10,000-20,000 database IOPS. **The key insight**: most applications need to plan for 20% of their user base being active simultaneously during peak periods.
-
-Modern architectures require multi-layer scaling with load balancers, CDN offloading (targeting 90% cache hit rates), and database read replicas. The optimal setup typically involves 10-20 application servers, primary database with 2-3 read replicas, and Redis caching clusters across multiple availability zones.
-
-## 🌐 Major cloud provider comparison
+| Provider | Monthly Cost Range | Strengths | Best For |
+|----------|-------------------|-----------|----------|
+| AWS | $3,750-6,250 | Comprehensive features, global scale | Enterprise applications |
+| GCP | $8,000-50,000 | Analytics integration, automatic optimization | Data-heavy applications |
+| Azure | $21,500-45,000 | Enterprise integration, hybrid benefits | Microsoft ecosystems |
+| Hetzner | $325-850 | Lowest cost per performance | CPU-intensive workloads |
+| Cloudflare | $100-500 | Zero egress, global edge network | Content delivery, JAMstack |
+| Vercel | $200-2,000+ | Developer experience, automatic optimization | Frontend-focused applications |
+| DigitalOcean | $500-2,000 | Predictable pricing, managed services | Balanced development teams |
 
 ### 🟠 Amazon Web Services: Enterprise scale leader
 
@@ -68,17 +70,6 @@ DigitalOcean provides **predictable pricing** with comprehensive managed service
 
 Expect **$500-2,000 monthly** for 100,000 user applications, with excellent documentation and developer-friendly tools justifying the moderate premium over pure VPS providers.
 
-## Cost comparison matrix
-
-| Provider | Monthly Cost Range | Strengths | Best For |
-|----------|-------------------|-----------|----------|
-| AWS | $3,750-6,250 | Comprehensive features, global scale | Enterprise applications |
-| GCP | $8,000-50,000 | Analytics integration, automatic optimization | Data-heavy applications |
-| Azure | $21,500-45,000 | Enterprise integration, hybrid benefits | Microsoft ecosystems |
-| Hetzner | $325-850 | Lowest cost per performance | CPU-intensive workloads |
-| Cloudflare | $100-500 | Zero egress, global edge network | Content delivery, JAMstack |
-| Vercel | $200-2,000+ | Developer experience, automatic optimization | Frontend-focused applications |
-| DigitalOcean | $500-2,000 | Predictable pricing, managed services | Balanced development teams |
 
 ## Optimization strategies comparison
 
@@ -97,6 +88,15 @@ Expect **$500-2,000 monthly** for 100,000 user applications, with excellent docu
 **Cross-zone and cross-region charges** accumulate quickly. AWS charges $0.01/GB for cross-AZ traffic, while GCP and Azure have similar inter-zone fees. **Careful architectural planning** minimizes these charges through regional deployment strategies.
 
 ## Recommendations by use case
+
+
+Supporting 100,000 users requires sophisticated cloud infrastructure with careful cost optimization. After analyzing current 2024-2025 pricing across major providers, this report delivers actionable insights for budget planning and architectural decisions.
+
+## 🏗️ Technical requirements baseline
+
+For 100,000 registered users, expect **5,000-15,000 peak concurrent users** based on industry patterns. This translates to specific infrastructure needs: 80-320 vCPUs across application servers, 128-256 GB RAM for primary databases, 750 Mbps to 1.5 Gbps peak bandwidth, and 10,000-20,000 database IOPS. **The key insight**: most applications need to plan for 20% of their user base being active simultaneously during peak periods.
+
+Modern architectures require multi-layer scaling with load balancers, CDN offloading (targeting 90% cache hit rates), and database read replicas. The optimal setup typically involves 10-20 application servers, primary database with 2-3 read replicas, and Redis caching clusters across multiple availability zones.
 
 ### Budget-conscious applications ($500-2,000/month)
 

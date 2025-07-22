@@ -1,6 +1,7 @@
 {
   "pages": [
     "index",
+    "(api)",
     "research/tool-rank",
     "research",
     "..."

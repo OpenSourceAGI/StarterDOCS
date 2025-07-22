@@ -18,6 +18,8 @@
 </h3>
 <h3 align="center">
     <a href="https://starterdocs.js.org">📑 Files & Functions Docs (starterdocs.js.org)</a>
+    <a href="https://starterdocs.js.org/docs/guides/starter-docs#%EF%B8%8F-installation">⬇️ Installation</a>
+    
 </h3>
 
 ### ⚒️ Starter DOCS: Drizzle OAuth Cloudflare Svelte
@@ -49,18 +51,6 @@ npx create-starter-app
 
 ✅ [Vitest](https://vitest.dev/guide/ui) - unit testing UI
 
-## ⭐ Extras & Alternative  UI Blocks
-
-1. [Shadcn Sidebar](https://next.shadcn-svelte.com/blocks)
-2. [21st.dev](https://21st.dev/home)
-3. [Magic UI Animations](https://animation-svelte.vercel.app/magic)
-4. [List of Svelte Libraries](https://github.com/TheComputerM/awesome-svelte#ui-libraries)
-5. [Material UI](https://sveltematerialui.com/INSTALL.md)
-6. [SkeletonUI](https://www.skeleton.dev/components/app-rail)
-7. [Flowbite](https://flowbite-svelte.com/docs/pages/introduction)
-8. [Icon sets](https://www.svgrepo.com/collections)
-9. [Shadcn Libraries](https://github.com/birobirobiro/awesome-shadcn-ui)
-
 ### 🖼️ Screenshots
 <p align="center">
     <img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" />
@@ -68,29 +58,3 @@ npx create-starter-app
 
 ![logo2](https://i.imgur.com/jehI6lv.png)
 
-
-### ⬇️ Installation
-
-1.  Install prerequisites Node.js or Bun `curl -fsSL https://bun.sh/install | bash`. Optional: Setup shell with dev tools like nvim, fish, system info with [Server-Shell-Setup](https://github.com/vtempest/Server-Shell-Setup)
-2.  Clone to localhost or server `git clone https://github.com/vtempest/svelte-docs-starter`.  
-    Optional: Press `.` when on the Github repo page to fork and run in Github Workspaces.
-3.  CD to project directory `cd svelte-docs-starter`.
-4.  Install dependencies `bun install`.
-5.  `mv .env.example .env ; mv wrangler.example.toml wrangler.toml` and set the domain and API keys in `.env`.
-6.  Auth providers, get id/secret from [Google](https://console.cloud.google.com/apis/credentials).
-7.  Set OAuth origin `http://localhost` and `http://localhost:5173` on local or `https://domain.com` on server.
-8.  Set redirect `http://localhost:5173/auth/oauth/google/callback` or `https://api.domain.com/auth/oauth/google/callback`.
-9.  Optional: For email auth, get API from [Resend](https://resend.com/api-keys) mailer and verify domain.
-10.  Log in with your Cloudflare account by running: `bunx wrangler login`.
-11.  Create your D1 database via dashboard or with `bunx wrangler d1 create serverless-docs-db` or your custom db name.
-12.  Copy the console output database\_name and database\_id.
-13.  Go to `wrangler.toml` and change `database_name` and `database_id`.
-14.  Go to `drizzle.config.ts` and change db name in `dbName`.
-15.  Go to `package.json` and change db name in `db:push:*` and `db:backup:prod`.
-16.  Generate and migrate the schema to dev or prod db: `bun run db:migrate; bun run db:push:dev; bun run db:push:prod`.
-17.  Develop on local with `bun dev`.
-18.  Deploy to prod with `bun serve`.
-19.  Domain: [Cloudflare Dashboard](https://dash.cloudflare.com) -> Workers and Pages -> \[your worker name\] -> Settings
-20.  Add-to-Home on Mobile Web: Design logo and generate icons for with [PWA Asset Generator](https://github.com/elegantapp/pwa-asset-generator) or [Favicon.io](https://favicon.io)
-21.  User Analytics: Get Google Analytics ID from [Google Analytics](https://support.google.com/analytics/answer/9539598?hl=en) or [SimpleAnalytics](https://www.simpleanalytics.com) and add to `app.html`.
-22.  Email Forwarding: Setup [Cloudflare Email Routing](https://blog.cloudflare.com/introducing-email-routing/) and [GMail's Send From Verification](https://support.google.com/mail/answer/22370?hl=en)
