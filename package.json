@@ -1,24 +1,25 @@
 {
-  "name": "svelte-starter-docs",
+  "name": "create-starter-app",
   "type": "module",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "private": true,
   "author": "vtempest <grokthiscontact@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "scripts": {
     "dev": "concurrently \"NODE_NO_WARNINGS=1 vite dev\" \"wait-on http://localhost:5173 && opener http://localhost:5173\"",
     "serve": "NODE_NO_WARNINGS=1 vite build; bunx wrangler deploy; concurrently  \"opener https://qwksearch.com  \" \" bunx wrangler tail\"",
-    "make": "NODE_OPTIONS=--max-old-space-size=12192 BUN_JSC_forceRAMSize=12192  NODE_NO_WARNINGS=1 vite build",
-    "logs": "bunx wrangler tail",
+    "build": "NODE_OPTIONS=--max-old-space-size=12192 BUN_JSC_forceRAMSize=12192  NODE_NO_WARNINGS=1 vite build",
+    "log": "bunx wrangler tail",
+    "ship": "npx standard-version --release-as patch; npm publish",
     "preview": "bunx wrangler dev --live-reload && bunx opener http://localhost:5173",
     "test": "vitest",
+    "build:icons": "bunx export-svg-typescript@latest -i ./src/lib/components/icons -o ./src/lib/components/icons/index.ts",
     "db:generate": "drizzle-kit generate  --config=./src/lib/server/drizzle.config.ts",
     "db:push:dev": "wrangler d1 migrations apply qwksearch-db --local",
     "db:push:prod": "wrangler d1 migrations apply  qwksearch-db --remote",
     "db:studio": "ENV=dev drizzle-kit studio  --config=./src/lib/db/drizzle.config.ts",
     "db:backup": "wrangler d1 export qwksearch-db --output backup-prod.sql --remote",
-    "format": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "build:icons": "bunx export-svg-typescript@latest -i ./src/lib/components/icons -o ./src/lib/components/icons/index.ts"
+    "format": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250606.0",
