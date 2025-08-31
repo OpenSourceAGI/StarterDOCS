@@ -14,10 +14,8 @@
     </a>
 </p>
 <h3 align="center">
-    <a href="https://starterdocs.vtempest.workers.dev">🎮Live Demo</a>
-</h3>
-<h3 align="center">
-    <a href="https://starterdocs.js.org">📑 Files & Functions Docs (starterdocs.js.org)</a>
+    <a href="https://starterdocs.vtempest.workers.dev">🎮 Demo</a>
+    <a href="https://starterdocs.js.org">📑 Docs (starterdocs.js.org)</a>
     <a href="https://starterdocs.js.org/docs/guides/starter-docs#%EF%B8%8F-installation">⬇️ Installation</a>
     
 </h3>
@@ -29,10 +27,10 @@
 **Functionally Brilliant, Elegantly Simple Toolkit:** StarterDOCS is to SvelteKit what Next.js is to React: full stack with smart defaults for common needs. It is 
 easy to switch in alternatives: Such as running on AWS/GCE instead of Cloudflare, or using Next/Supabase isntead of Svelte/Cloudflare.
 
-
 ```bash
-npx create-starter-app
+bun create starter-app
 ```
+
 
 📚 [Drizzle ORM](https://orm.drizzle.team/kit-docs/quick) - lightweight ORM compatible with Cloudflare D1 and drizzle-kit to manage schema migrations
 
@@ -40,7 +38,7 @@ npx create-starter-app
 
 ☁️ [Cloudflare for Svelte](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/) - serverless autoscaling API and D1 database, great hosting platform with free tier
 
-🖼️ [SvelteKit](https://svelte.dev/docs/kit/introduction) \- full stack interface and API routes framework. Many developers prefer [Svelte over React](https://shakuro.com/blog/svelte-vs-react).
+🖼️ [SvelteKit](https://svelte.dev/docs/kit/introduction) - full stack interface and API routes framework. Many developers prefer [Svelte over React](https://shakuro.com/blog/svelte-vs-react).
 
 ### 🧩 Interface Components
 
@@ -53,8 +51,7 @@ npx create-starter-app
 
 ### 🖼️ Screenshots
 <p align="center">
-    <img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" />
+    <img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" /><img width="350px" src="https://i.imgur.com/jehI6lv.png" />
 </p>
 
-![logo2](https://i.imgur.com/jehI6lv.png)
 

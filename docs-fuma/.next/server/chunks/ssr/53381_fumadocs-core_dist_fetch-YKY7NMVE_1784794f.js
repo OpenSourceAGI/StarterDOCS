@@ -1,3 +1,0 @@
-module.exports={45252:a=>{"use strict";a.s({fetchDocs:()=>c});var b=new Map;async function c(a,{api:c="/api/search",locale:d,tag:e}){let f=new URLSearchParams;f.set("query",a),d&&f.set("locale",d),e&&f.set("tag",Array.isArray(e)?e.join(","):e);let g=`${c}?${f}`,h=b.get(g);if(h)return h;let i=await fetch(g);if(!i.ok)throw Error(await i.text());let j=await i.json();return b.set(g,j),j}}};
-
-//# sourceMappingURL=53381_fumadocs-core_dist_fetch-YKY7NMVE_1784794f.js.map

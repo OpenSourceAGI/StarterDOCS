@@ -1,3 +1,0 @@
-module.exports={93532:a=>{"use strict";function b(a){let b=[],c=new Set;for(let d of a)c.has(d.url)||(c.add(d.url),b.push({id:d.url,type:"page",url:d.url,content:d.title})),b.push({id:d.objectID,type:d.content===d.section?"heading":"text",url:d.section_id?`${d.url}#${d.section_id}`:d.url,content:d.content});return b}async function c(a,{indexName:c,onSearch:d,client:e,locale:f,tag:g}){return a.length>0?b((d?await d(a,g,f):await e.searchForHits({requests:[{type:"default",indexName:c,query:a,distinct:5,hitsPerPage:10,filters:g?`tag:${g}`:void 0}]})).results[0].hits).filter(a=>"page"===a.type):[]}a.s({groupResults:()=>b,searchDocs:()=>c})}};
-
-//# sourceMappingURL=53381_fumadocs-core_dist_algolia-NXNLN7TR_159217f6.js.map
