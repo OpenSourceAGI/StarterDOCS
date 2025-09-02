@@ -1,11 +1,11 @@
 services:
-  # Chat UI
-  chat-view:
+  # Web App
+  web-app:
     image: oven/bun:latest
     working_dir: /app
     container_name: chat-view
     volumes:
-      - .:/app
+      - ./apps/web:/app
     ports:
       - "3000:3000"
     environment:
@@ -17,6 +17,28 @@ services:
       - caddy
     labels:
       caddy: ${DOMAIN:-localhost}
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+
+
+  
+  # User Guide
+  docs:
+    image: oven/bun:latest
+    working_dir: /app
+    container_name: chat-view
+    volumes:
+      - ./apps/docs:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - DOMAIN=${DOMAIN:-localhost}
+    command: bash -c "bun i; bun run build"
+    restart: unless-stopped
+    networks:
+      - caddy
+    labels:
+      caddy: docs.${DOMAIN:-localhost}
       caddy.reverse_proxy: "{{upstreams 3000}}"
 
   # #  Caddy - proxy server router for containers 

@@ -6,7 +6,7 @@
         <img alt="GitHub Discussions"
             src="https://img.shields.io/github/discussions/vtempest/Svelte-Starter-DOCS" />
     </a>
-    <a href="http://makeapullrequest.com">
+     <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
     </a>
     <a href="https://codespaces.new/vtempest/Svelte-Starter-DOCS">
@@ -50,8 +50,5 @@ bun create starter-app
 ✅ [Vitest](https://vitest.dev/guide/ui) - unit testing UI
 
 ### 🖼️ Screenshots
-<p align="center">
-    <img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" /><img width="350px" src="https://i.imgur.com/jehI6lv.png" />
-</p>
 
-
+<img width="350px" src="https://i.imgur.com/jIaL6yP.png" /><img width="350px" src="https://i.imgur.com/NlkjlWI.png" />

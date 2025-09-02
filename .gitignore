@@ -13,8 +13,8 @@ vite.config.*.timestamp-*
 .svelte-kit/*
 .source
 bun.lockb
-web-app/data/*
 migrations/*
 .docusaurus/*
-.next/*
-docs/dist/*
+*/.next/*
+apps/docs/dist/*
+apps/docs/.next/*
