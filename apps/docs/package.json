@@ -5,11 +5,10 @@
   "private": true,
   "scripts": {
     "build:preview": " bun run build && bun run start",
-    "build": "rm -rf ./dist/* && next build --turbo; echo 'starterdocs.js.org' > ./dist/CNAME;",
+    "build": "rm -rf ./dist/* && next build --turbo",
     "build:api": "node ./scripts/generate-api-docs.mjs",
     "dev": "next dev --turbo",
     "start": "bunx concurrently \"npx serve -l 3000 ./dist --single\" \"sleep 2 && bunx open-cli http://localhost:3000\"", 
-    
     "check": "fumadocs-mdx && tsc --noEmit"
   },
   "dependencies": {
