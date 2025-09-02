@@ -25,7 +25,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build docs subfolder with bun
-        run: cd apps/docs && npm i -g bun && bun i -D --force && bun run build
+        run: cd apps/docs && npm i -D --force && npm run build
 
       - name: Upload docs output
         uses: actions/upload-pages-artifact@v3

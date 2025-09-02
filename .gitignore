@@ -16,5 +16,4 @@ bun.lockb
 migrations/*
 .docusaurus/*
 */.next/*
-apps/docs/dist/*
 apps/docs/.next/*
