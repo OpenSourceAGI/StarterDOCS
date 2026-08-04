@@ -114,7 +114,7 @@ for key in $DISPLAY_ORDER; do
     ;;
   gpu)
     if [ -z "$GPU" ]; then
-      export GPU=$(lspci | grep -i vga | grep -Ei 'rtx|geforce|amd' | head -n1 | sed -n 's/.*\[\([^]/]*\)\/.*/\1/p')
+      export GPU=$(lspci | grep -Ei 'VGA|3D controller|Display controller' | grep -Ei 'nvidia|geforce|rtx|gtx|quadro|tesla|amd|ati|radeon|navi|vega|rx|intel.*(arc|uhd|iris|hd.graphics)' | sed -n 's/.*\[\([^]]*\)\].*/\1/p' | tail -c +1 | paste -sd ',' | sed 's/,/, /g')
     fi
     [ -n "$GPU" ] && echo -ne "\e[38;5;226m 🎮 $GPU"
     ;;

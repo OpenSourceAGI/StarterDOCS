@@ -109,15 +109,16 @@ export interface SystemInfo {
   cpu: string;
 
   /**
-   * Graphics card model name
-   * Primary GPU identification (Linux systems primarily)
-   * Extracted from lspci output when available
-   * Empty string if no discrete GPU or detection fails
+   * Graphics card model name(s)
+   * All detected GPUs, comma-separated if multiple
+   * Matches VGA, 3D controller, and Display controller devices
+   * Extracted from lspci output (Linux) or WMI (Windows)
+   * Empty string if no GPU detected or detection fails
    *
    * @example
    * - "NVIDIA GeForce RTX 4070"
-   * - "AMD Radeon RX 6800 XT"
-   * - "Intel UHD Graphics 770"
+   * - "GeForce RTX 3070, Radeon RX 6800 XT"
+   * - "Intel UHD Graphics 770, NVIDIA GeForce RTX 4090"
    */
   gpu: string;
 
@@ -147,6 +148,32 @@ export interface SystemInfo {
    * - "" (CPU not in benchmark database)
    */
   cpu_bench_info: string;
+
+  /**
+   * GPU benchmark score from Geekbench 6 OpenCL
+   * Shows performance score (in thousands) and ranking position
+   * Uses fuzzy matching to find similar GPU models from benchmark data
+   * Empty string if GPU not found or benchmark data unavailable
+   *
+   * @example
+   * - "💪 37.9k #1" (top performing GPU)
+   * - "💪 20.5k #68" (mid-range GPU)
+   * - "" (GPU not in benchmark database)
+   */
+  gpu_bench: string;
+
+  /**
+   * Detailed GPU benchmark information from Geekbench 6 OpenCL
+   * Shows score, rank, and vendor type (NVIDIA/AMD/Intel)
+   * Uses fuzzy matching to find similar GPU models
+   * Empty string if GPU not found or benchmark data unavailable
+   *
+   * @example
+   * - "Geekbench 6: 37.9k (Rank #1) - NVIDIA" (NVIDIA GPU)
+   * - "Geekbench 6: 20.5k (Rank #68) - AMD" (AMD GPU)
+   * - "" (GPU not in benchmark database)
+   */
+  gpu_bench_info: string;
 
   /**
    * Device or computer model name

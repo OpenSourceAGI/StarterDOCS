@@ -18,7 +18,7 @@ import { CACHE_FILE } from "./info/settings"; // Using CACHE_FILE from settings 
 
 // Import info functions from modules
 import { user, hostname, os_info, kernel, device } from "./info/platform";
-import { cpu, gpu, screen_resolution, bench, cpu_bench_info } from "./info/hardware";
+import { cpu, gpu, screen_resolution, bench, cpu_bench_info, gpu_bench, gpu_bench_info } from "./info/hardware";
 import {
   disk_used,
   ram_used,
@@ -54,6 +54,8 @@ const CACHE_DURATION = {
   gpu: 24 * 60 * 60 * 1000,
   bench: 24 * 60 * 60 * 1000,
   cpu_bench_info: 24 * 60 * 60 * 1000,
+  gpu_bench: 24 * 60 * 60 * 1000,
+  gpu_bench_info: 24 * 60 * 60 * 1000,
   os: 24 * 60 * 60 * 1000,
   device: 24 * 60 * 60 * 1000,
   kernel: 60 * 60 * 1000,
@@ -195,6 +197,8 @@ export const infoFunctions = {
   gpu,
   bench,
   cpu_bench_info,
+  gpu_bench,
+  gpu_bench_info,
   disk_used,
   ram_used,
   top_process,
