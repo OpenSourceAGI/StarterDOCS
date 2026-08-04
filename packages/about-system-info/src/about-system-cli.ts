@@ -58,8 +58,71 @@ function formatValue(key: string, value: string, settings: Settings): string {
   return `${color}${emoji}${value}`;
 }
 
-function removeAnsiCodes(str: string): string {
-  return str.replace(/\x1b\[[0-9;]*m/g, "");
+/**
+ * Wraps text to a maximum visible width, filling each line completely with
+ * characters before moving on. Unlike block-boundary wrapping, this breaks in
+ * the middle of an info block when it doesn't fit, so no visible space is left
+ * unused at the end of a line.
+ *
+ * ANSI color codes are copied verbatim and never counted toward the width, and
+ * the active color is re-applied at the start of each wrapped line so colors
+ * survive a mid-block break. Emoji surrogate pairs are kept intact.
+ *
+ * @param text - The text to wrap (may contain ANSI escape sequences)
+ * @param maxLength - Maximum visible characters per line
+ * @returns Array of wrapped lines
+ */
+function wrapAnsiText(text: string, maxLength: number): string[] {
+  if (maxLength <= 0) return text ? [text] : [];
+
+  const lines: string[] = [];
+  let currentLine = "";
+  let visibleCount = 0;
+  let activeAnsi = "";
+
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+
+    // Copy ANSI escape sequences verbatim without counting them.
+    if (char === "\x1b" && text[i + 1] === "[") {
+      let seq = char;
+      let j = i + 1;
+      while (j < text.length && text[j] !== "m") {
+        seq += text[j];
+        j++;
+      }
+      if (j < text.length) seq += text[j]; // include the trailing "m"
+      currentLine += seq;
+      // Track the active color so wrapped lines keep it; a reset clears it.
+      activeAnsi = /\x1b\[0m/.test(seq) ? "" : seq;
+      i = j;
+      continue;
+    }
+
+    // Keep an emoji (surrogate pair) together and count it as width 2.
+    let unit = char;
+    let width = 1;
+    const code = text.charCodeAt(i);
+    if (code >= 0xd800 && code <= 0xdbff && i + 1 < text.length) {
+      unit = char + text[i + 1];
+      width = 2;
+      i++;
+    }
+
+    // Line is full: break here, even in the middle of an info block.
+    if (visibleCount >= maxLength) {
+      lines.push(currentLine);
+      currentLine = activeAnsi;
+      visibleCount = 0;
+    }
+
+    currentLine += unit;
+    visibleCount += width;
+  }
+
+  if (currentLine) lines.push(currentLine);
+
+  return lines;
 }
 
 async function displaySystemInfo(
@@ -91,10 +154,10 @@ async function displaySystemInfo(
     return;
   }
 
-  // Multi-line mode with intelligent wrapping
-  const lines: string[] = [];
-  let currentLine = "";
+  // Multi-line mode: fill each line completely with characters, wrapping in
+  // the middle of an info block when it no longer fits.
   const maxLineLength = settings.display.line_wrap_length;
+  const allItems: string[] = [];
 
   for (const group of displayOrder) {
     for (const key of group) {
@@ -102,25 +165,12 @@ async function displaySystemInfo(
       const formatted = formatValue(key, value, settings);
 
       if (formatted && formatted.trim()) {
-        const formattedLength = removeAnsiCodes(formatted).length;
-        const currentLineLength = removeAnsiCodes(currentLine).length;
-
-        if (
-          currentLine &&
-          currentLineLength + formattedLength + 1 > maxLineLength
-        ) {
-          lines.push(currentLine);
-          currentLine = formatted;
-        } else {
-          currentLine = currentLine ? `${currentLine} ${formatted}` : formatted;
-        }
+        allItems.push(formatted);
       }
     }
   }
 
-  if (currentLine) {
-    lines.push(currentLine);
-  }
+  const lines = wrapAnsiText(allItems.join(" "), maxLineLength);
 
   // Output
   if (lines.length > 0) {
