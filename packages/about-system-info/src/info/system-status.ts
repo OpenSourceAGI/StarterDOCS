@@ -6,17 +6,25 @@
 import fs from "fs";
 import os from "os";
 import type { InfoContext } from "../types/internal-types";
-import { IS_LINUX } from "../utils/platform";
+import { IS_LINUX, IS_MAC } from "../utils/platform";
 import { execCommand, commandExists } from "../utils/command";
 import { getCachedValue, setCachedValue } from "../cache/cache";
 
 /**
  * Gets system load averages
- * Reads 1, 5, and 15 minute load averages from /proc/loadavg (Linux only)
+ * Reads 1, 5, and 15 minute load averages from /proc/loadavg (Linux) or
+ * os.loadavg() (macOS)
  * @returns Space-separated load averages (1m 5m 15m) or empty string
  * @example "0.52 0.58 0.59", "2.10 1.95 1.88"
  */
 export function load_average(context: InfoContext): string {
+  if (IS_MAC) {
+    return os
+      .loadavg()
+      .map((n) => n.toFixed(2))
+      .join(" ");
+  }
+
   if (!IS_LINUX) return "";
 
   try {
@@ -37,6 +45,22 @@ export function load_average(context: InfoContext): string {
 export function battery(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "battery");
   if (cached !== null) return cached;
+
+  if (IS_MAC) {
+    try {
+      const batt = execCommand("pmset -g batt");
+      const percentMatch = batt.match(/(\d+)%/);
+      if (percentMatch) {
+        const isCharging = /;\s*(charging|charged);/i.test(batt);
+        const result = `${percentMatch[1]}%${isCharging ? "+" : ""}`;
+        setCachedValue(context.cache, "battery", result);
+        return result;
+      }
+    } catch {}
+
+    setCachedValue(context.cache, "battery", "");
+    return "";
+  }
 
   if (!IS_LINUX) {
     setCachedValue(context.cache, "battery", "");
@@ -117,6 +141,24 @@ export function temperature(context: InfoContext): string {
 export function services_running(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "services_running");
   if (cached !== null) return cached;
+
+  if (IS_MAC) {
+    try {
+      const services = execCommand("launchctl list");
+      const serviceCount = services
+        .split("\n")
+        .filter((line) => line.trim() && !line.startsWith("PID")).length;
+
+      if (serviceCount > 0) {
+        const result = `${serviceCount} services`;
+        setCachedValue(context.cache, "services_running", result);
+        return result;
+      }
+    } catch {}
+
+    setCachedValue(context.cache, "services_running", "");
+    return "";
+  }
 
   if (!IS_LINUX) {
     setCachedValue(context.cache, "services_running", "");

@@ -6,7 +6,7 @@
 import os from "os";
 import fs from "fs";
 import type { InfoContext } from "../types/internal-types";
-import { IS_LINUX } from "../utils/platform";
+import { IS_LINUX, IS_MAC } from "../utils/platform";
 import { execCommand } from "../utils/command";
 import { getCachedValue, setCachedValue } from "../cache/cache";
 
@@ -105,7 +105,7 @@ export function swap_used(): string {
 
 /**
  * Gets root filesystem disk usage percentage
- * Uses df command on Linux/Android
+ * Uses df command on Linux/Android/macOS
  * @param context - Info context with cache
  * @returns Percentage string or empty string
  * @example "45%", "78%"
@@ -114,7 +114,7 @@ export function disk_used(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "disk_used");
   if (cached !== null) return cached;
 
-  if (IS_LINUX) {
+  if (IS_LINUX || IS_MAC) {
     try {
       const df = execCommand("df -h");
       let diskUsage = "";
@@ -169,17 +169,17 @@ export function load_average(): string {
 
 /**
  * Gets mounted filesystem information
- * Lists non-system mount points with usage from df (Linux only)
- * Excludes /, /dev, /proc, and /sys mounts
+ * Lists non-system mount points with usage from df (Linux/macOS)
+ * Excludes /, /dev, /proc, /sys, and (on macOS) internal /System/Volumes mounts
  * @param context - Info context with cache
  * @returns Space-separated mount points with usage or empty string
- * @example "/home(45%) /mnt/data(78%)", "/media/usb(12%)"
+ * @example "/home(45%) /mnt/data(78%)", "/Volumes/Backup(78%)"
  */
 export function mount_points(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "mount_points");
   if (cached !== null) return cached;
 
-  if (!IS_LINUX) {
+  if (!IS_LINUX && !IS_MAC) {
     setCachedValue(context.cache, "mount_points", "");
     return "";
   }
@@ -191,17 +191,20 @@ export function mount_points(context: InfoContext): string {
 
     lines.forEach((line) => {
       const parts = line.trim().split(/\s+/);
-      if (parts.length >= 6) {
-        const mountPoint = parts[5];
-        const usage = parts[4];
-        if (
-          !mountPoint.startsWith("/dev") &&
-          !mountPoint.startsWith("/proc") &&
-          !mountPoint.startsWith("/sys") &&
-          mountPoint !== "/"
-        ) {
-          mountPoints.push(`${mountPoint}(${usage})`);
-        }
+      if (parts.length < 2) return;
+
+      const mountPoint = parts[parts.length - 1];
+      const usage = parts.find((part) => /^\d+%$/.test(part)) || "";
+
+      if (
+        usage &&
+        !mountPoint.startsWith("/dev") &&
+        !mountPoint.startsWith("/proc") &&
+        !mountPoint.startsWith("/sys") &&
+        !mountPoint.startsWith("/System/Volumes") &&
+        mountPoint !== "/"
+      ) {
+        mountPoints.push(`${mountPoint}(${usage})`);
       }
     });
 

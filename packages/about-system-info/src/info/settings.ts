@@ -44,7 +44,7 @@ export const DEFAULT_SETTINGS = {
       "battery",
       "load_average",
     ],
-    ["ip", "iplocal", "city", "domain", "isp"],
+    ["ip", "iplocal", "city"],
     ["shell", "services_running", "pacman", "containers"],
   ],
   colors: {
