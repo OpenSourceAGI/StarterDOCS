@@ -102,3 +102,14 @@
 
 **[template-docusaurus](starter-templates/template-docusaurus/)** - Docusaurus 3 docs template with offline Lunr search, OpenAPI plugin, and classic theme optimized for technical docs.
 `bun create starter-app` · `npx create-starter-app`
+
+### 🧠 Agent Skills
+
+Every package has a matching [Agent Skill](skills/) — setup, the calls worth knowing, recipes, and a troubleshooting table, written from the source rather than the README. Install all of them, or just the one you need:
+
+```bash
+npx skills@latest add https://github.com/OpenSourceAGI/dev-tools-starter-agent
+npx skills@latest add https://github.com/OpenSourceAGI/dev-tools-starter-agent --skill ask-manage-storage
+```
+
+See [skills/README.md](skills/README.md) for the full index.
