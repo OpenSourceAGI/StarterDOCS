@@ -121,6 +121,7 @@ async function getBasicInfo() {
 | `cpu`         | CPU information            | `📈 Intel Core i7-8700K`     |
 | `gpu`         | Graphics card              | `🎮 NVIDIA GeForce RTX 3080` |
 | `disk_used`   | Disk usage percentage      | `📁 75%`                     |
+| `disk_size`   | Disk size per real disk    | `💽 256/512GB`               |
 | `ram_used`    | Memory usage               | `💾 8/16GB`                  |
 | `top_process` | Highest CPU process        | `🔝 15% chrome`              |
 | `uptime`      | System uptime              | `⏱️ 2d 5h 30m`             |

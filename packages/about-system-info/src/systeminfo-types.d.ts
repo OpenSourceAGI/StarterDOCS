@@ -129,8 +129,8 @@ export interface SystemInfo {
    * Empty string if CPU not found or benchmark data unavailable
    *
    * @example
-   * - "💪 37.9k #1" (top performing CPU)
-   * - "💪 20.5k #68" (mid-range CPU)
+   * - "37.9k #1" (top performing CPU)
+   * - "20.5k #68" (mid-range CPU)
    * - "" (CPU not in benchmark database)
    */
   bench: string;
@@ -156,8 +156,8 @@ export interface SystemInfo {
    * Empty string if GPU not found or benchmark data unavailable
    *
    * @example
-   * - "💪 37.9k #1" (top performing GPU)
-   * - "💪 20.5k #68" (mid-range GPU)
+   * - "37.9k #1" (top performing GPU)
+   * - "20.5k #68" (mid-range GPU)
    * - "" (GPU not in benchmark database)
    */
   gpu_bench: string;

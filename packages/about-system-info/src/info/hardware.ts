@@ -222,7 +222,7 @@ export function screen_resolution(): string {
  * Uses fuzzy matching to find similar CPU models
  * @param context - Info context with cache
  * @returns Benchmark info with score and rank, or empty string
- * @example "💪 37.9k #1", "💪 20.5k #68"
+ * @example "37.9k #1", "20.5k #68"
  */
 export function bench(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "bench");
@@ -276,7 +276,7 @@ export function bench(context: InfoContext): string {
       const match = results[0].item;
       const score = Math.round(match.score / 100) / 10;
       const rank = match.rank;
-      const result = `💪 ${score}k #${rank}`;
+      const result = `${score}k #${rank}`;
       setCachedValue(context.cache, "bench", result);
       return result;
     }
@@ -381,7 +381,7 @@ export function cpu_bench_info(context: InfoContext): string {
  * Uses fuzzy matching to find similar GPU models
  * @param context - Info context with cache
  * @returns Benchmark info with score and rank, or empty string
- * @example "💪 37.9k #1", "💪 20.5k #68"
+ * @example "37.9k #1", "20.5k #68"
  */
 export function gpu_bench(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "gpu_bench");
@@ -435,7 +435,7 @@ export function gpu_bench(context: InfoContext): string {
       const match = results[0].item;
       const score = Math.round(match.score / 100) / 10;
       const rank = match.rank;
-      const result = `💪 ${score}k #${rank}`;
+      const result = `${score}k #${rank}`;
       setCachedValue(context.cache, "gpu_bench", result);
       return result;
     }
