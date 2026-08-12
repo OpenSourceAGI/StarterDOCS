@@ -204,6 +204,18 @@ export interface SystemInfo {
   disk_used: string;
 
   /**
+   * Disk size (used/total) for each real disk
+   * Format: "used/total GB" when a single real disk is found, or
+   * "mount(used/total GB) ..." per disk when multiple are found
+   * Pseudo filesystems and small system/boot partitions (under 10GB) are
+   * excluded
+   * Empty string if unable to determine
+   *
+   * @example "256/512GB", "/(100/500GB) /Volumes/Backup(900/2000GB)"
+   */
+  disk_size: string;
+
+  /**
    * Memory usage in gigabytes
    * Format: "used/total GB" showing current RAM consumption
    * Calculated from system memory statistics

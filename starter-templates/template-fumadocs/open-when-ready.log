@@ -1,4 +1,12 @@
 ▲ Next.js 16.2.10 (Turbopack)
 - Local:         http://localhost:3000
-- Network:       http://10.219.61.32:3000
-✓ Ready in 610ms
+- Network:       http://10.210.126.146:3000
+✓ Ready in 548ms
+⚠ Slow filesystem detected. The benchmark took 659ms. If /Users/admin/Developer/dev-tools-starter-agent/starter-templates/template-fumadocs/.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+[MDX] generated files in 57.27558399999998ms
+[MDX] started dev server
+○ Compiling middleware ...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling /docs/[[...slug]] ...

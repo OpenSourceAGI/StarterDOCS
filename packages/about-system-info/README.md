@@ -209,7 +209,7 @@ about-system --cache-clear
   },
   "display": {
     "show_emojis": true,
-    "single_line": false,
+    "single_line": true,
     "line_wrap_length": 100
   },
   "network": {
@@ -257,6 +257,15 @@ Customize the text labels for each info block:
 about-system --set labels.cpu "Processor"
 about-system --set labels.hostname "Computer"
 about-system --set labels.ram_used "Memory"
+```
+
+#### Line Wrapping
+
+By default, output is printed as one continuous line and lets the terminal soft-wrap it on resize. To instead hard-wrap at a fixed width (filling each line completely, breaking mid-block if needed), disable `single_line`:
+
+```bash
+about-system --set display.single_line false
+about-system --set display.line_wrap_length 100
 ```
 
 ### Platform-Specific Features

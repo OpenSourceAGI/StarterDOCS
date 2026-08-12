@@ -92,7 +92,9 @@ export function battery(context: InfoContext): string {
 
 /**
  * Gets system temperature in Celsius
- * Reads from thermal zone or hwmon sensors (Linux only)
+ * Reads from thermal zone or hwmon sensors (Linux), or from the
+ * `osx-cpu-temp` CLI (macOS, if installed via `brew install osx-cpu-temp`) -
+ * macOS has no unprivileged API for this, so nothing is reported without it
  * @param context - Info context with cache
  * @returns Temperature with °C suffix or empty string
  * @example "45°C", "62°C"
@@ -100,6 +102,26 @@ export function battery(context: InfoContext): string {
 export function temperature(context: InfoContext): string {
   const cached = getCachedValue(context.cache, "temperature");
   if (cached !== null) return cached;
+
+  if (IS_MAC) {
+    if (commandExists("osx-cpu-temp")) {
+      try {
+        const output = execCommand("osx-cpu-temp");
+        const match = output.match(/([\d.]+)\s*°?C/);
+        if (match) {
+          const tempC = Math.round(parseFloat(match[1]));
+          if (tempC > 0 && tempC < 150) {
+            const result = `${tempC}°C`;
+            setCachedValue(context.cache, "temperature", result);
+            return result;
+          }
+        }
+      } catch {}
+    }
+
+    setCachedValue(context.cache, "temperature", "");
+    return "";
+  }
 
   if (!IS_LINUX) {
     setCachedValue(context.cache, "temperature", "");

@@ -37,6 +37,7 @@ export const DEFAULT_SETTINGS = {
     ["user", "hostname", "os", "device", "kernel", "cpu", "gpu", "bench"],
     [
       "disk_used",
+      "disk_size",
       "ram_used",
       "top_process",
       "uptime",
@@ -51,6 +52,7 @@ export const DEFAULT_SETTINGS = {
     user: "red",
     hostname: "orange",
     disk_used: "purple",
+    disk_size: "purple",
     ram_used: "yellow",
     top_process: "magenta",
     uptime: "cyan",
@@ -97,6 +99,7 @@ export const DEFAULT_SETTINGS = {
     shell: "🐚 ",
     pacman: "🚀 ",
     disk_used: "📁 ",
+    disk_size: "💽 ",
     ram_used: "💾 ",
     top_process: "🔝 ",
     uptime: "⏱️ ",
@@ -131,6 +134,7 @@ export const DEFAULT_SETTINGS = {
     shell: "Shell",
     pacman: "Packages",
     disk_used: "Disk",
+    disk_size: "Disk Size",
     ram_used: "RAM",
     top_process: "Top",
     uptime: "Uptime",
@@ -150,7 +154,7 @@ export const DEFAULT_SETTINGS = {
   },
   display: {
     show_emojis: true,
-    single_line: false,
+    single_line: true,
     line_wrap_length: process?.stdout?.columns || 100,
   },
   network: {
@@ -168,6 +172,7 @@ export interface Settings {
   labels: Record<string, string>;
   display: {
     show_emojis: boolean;
+    /** true: print one continuous line and let the terminal soft-wrap it; false: hard-wrap at line_wrap_length */
     single_line: boolean;
     line_wrap_length: number;
   };

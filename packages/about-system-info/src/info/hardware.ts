@@ -236,7 +236,7 @@ export function bench(context: InfoContext): string {
 
   try {
     let benchmarkPath: string;
-    const benchmarkFile = "cpu-geekbench-1k.json";
+    const benchmarkFile = "cpu-geekbench.json";
 
     // Try multiple resolution strategies
     if (fs.existsSync(benchmarkFile)) {
@@ -307,7 +307,7 @@ export function cpu_bench_info(context: InfoContext): string {
 
   try {
     let benchmarkPath: string;
-    const benchmarkFile = "cpu-geekbench-1k.json";
+    const benchmarkFile = "cpu-geekbench.json";
 
     // Try multiple resolution strategies
     if (fs.existsSync(benchmarkFile)) {
