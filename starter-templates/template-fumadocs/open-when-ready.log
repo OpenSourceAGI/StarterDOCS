@@ -1,12 +1,68 @@
+⚠ Port 3000 is in use by an unknown process, using available port 3001 instead.
 ▲ Next.js 16.2.10 (Turbopack)
-- Local:         http://localhost:3000
-- Network:       http://10.210.126.146:3000
-✓ Ready in 548ms
-⚠ Slow filesystem detected. The benchmark took 659ms. If /Users/admin/Developer/dev-tools-starter-agent/starter-templates/template-fumadocs/.next/dev is a network drive, consider moving it to a local folder.
-See more: https://nextjs.org/docs/app/guides/local-development
-[MDX] generated files in 57.27558399999998ms
+- Local:         http://localhost:3001
+- Network:       http://10.161.111.146:3001
+✓ Ready in 6.2s
+[MDX] generated files in 19.413375000000087ms
 [MDX] started dev server
-○ Compiling middleware ...
 ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
 
+○ Compiling / ...
+ GET / 200 in 7.2s (next.js: 3.6s, application-code: 3.7s)
 ○ Compiling /docs/[[...slug]] ...
+⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3001". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /docs 200 in 51s (next.js: 45s, generate-params: 1167ms, application-code: 5.8s)
+ GET /docs 200 in 53s (next.js: 47s, generate-params: 1027ms, application-code: 6.0s)
+ GET /docs 200 in 83s (next.js: 77s, generate-params: 1047ms, application-code: 6.0s)
+ GET /docs 200 in 70s (next.js: 63s, generate-params: 920ms, application-code: 6.4s)
+[browser] Uncaught Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+    at path (<anonymous>)
+    at Page (app/docs/[[...slug]]/page.tsx:48:11)
+  46 |         <div className="flex flex-row gap-2 items-center border-b pt-2 pb-6">
+  47 |           <LLMCopyButton markdownUrl={`${page.url}.mdx`} />
+> 48 |           <AskAIDropdown
+     |           ^
+  49 |             markdownUrl={`${page.url}.mdx`}
+  50 |             githubUrl={docsConfig.githubDocs ? `${docsConfig.githubDocs}/${page.path}` : u...
+  51 |           />
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 501ms
+ GET /docs 200 in 289ms (next.js: 44ms, generate-params: 9ms, application-code: 246ms)
+✓ Compiled in 296ms
+✓ Compiled in 200ms
+✓ Compiled in 485ms
+✓ Compiled in 135ms
+✓ Compiled in 170ms
+✓ Compiled in 166ms
+[browser] Invalid DOM property `stroke-width`. Did you mean `strokeWidth`? 
+[browser] Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`? 
+[browser] Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`? 
+ GET /docs 200 in 502ms (next.js: 115ms, generate-params: 15ms, application-code: 387ms)
+[browser] Invalid DOM property `stroke-width`. Did you mean `strokeWidth`? 
+[browser] Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`? 
+[browser] Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`? 
+✓ Compiled in 602ms
+ GET /docs.mdx 404 in 259ms (next.js: 73ms, generate-params: 9ms, application-code: 186ms)
+ GET /docs/configuration 200 in 1526ms (next.js: 237ms, proxy.ts: 127ms, generate-params: 7ms, application-code: 1161ms)
+✓ Compiled in 177ms
+✓ Finished writing to filesystem cache in 11.3s
+✓ Compiled in 57.7s
+✓ Compiled in 4.2s
+✓ Compiled in 791ms
+✓ Compiled in 351ms
+✓ Compiled in 832ms
+✓ Compiled in 987ms
+✓ Compiled in 733ms
+ GET /docs/configuration 200 in 1291ms (next.js: 180ms, proxy.ts: 277ms, generate-params: 20ms, application-code: 834ms)
+ GET /docs 200 in 222ms (next.js: 47ms, generate-params: 8ms, application-code: 175ms)
+ GET /docs/cli 200 in 1055ms (next.js: 15ms, proxy.ts: 12ms, generate-params: 5ms, application-code: 1028ms)
+ GET /docs/Performance 200 in 1003ms (next.js: 14ms, proxy.ts: 12ms, generate-params: 3ms, application-code: 977ms)
+ GET /docs/Performance 200 in 194ms (next.js: 133ms, proxy.ts: 50ms, generate-params: 7ms, application-code: 11ms)
+ GET /docs/Performance 200 in 122ms (next.js: 11ms, proxy.ts: 2ms, generate-params: 26µs, application-code: 108ms)
+ GET /docs/claude-skill 200 in 743ms (next.js: 10ms, proxy.ts: 14ms, generate-params: 4ms, application-code: 719ms)
+ GET /docs/openapi-services/api2ai-mcp-server 200 in 653ms (next.js: 11ms, proxy.ts: 11ms, generate-params: 3ms, application-code: 631ms)
+ GET / 200 in 171ms (next.js: 52ms, application-code: 119ms)
+ GET /docs 200 in 155ms (next.js: 49ms, generate-params: 5ms, application-code: 106ms)
+[browser] Invalid DOM property `stroke-width`. Did you mean `strokeWidth`? 
+[browser] Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`? 
+[browser] Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`? 
