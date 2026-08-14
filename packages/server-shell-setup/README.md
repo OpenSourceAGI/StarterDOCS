@@ -35,6 +35,9 @@ sudo passwd $USER  # set user password
 ```bash
 wget -qO- tinyurl.com/shellsetup | bash
 ```
+```bash
+curl -sSL https://tinyurl.com/shellsetup | bash
+```
 
 **Install everything unattended:**
 ```bash
