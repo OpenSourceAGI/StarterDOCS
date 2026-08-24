@@ -3,6 +3,7 @@
     <img width="600px" src="https://i.imgur.com/TTJBLxo.png" />
 </p>
 <h3 align="center">
+  <a href="https://api-2-ai.vercel.app/"> 🌐 Live Site </a> &nbsp;|&nbsp;
   <a href="https://github.com/vtempest/GRAB-URL/tree/master/api2ai/example-petstore"> 🎯 Example MCP Server </a>
 </h3>
 
@@ -18,6 +19,8 @@
 Generate production-ready MCP servers from any OpenAPI specification using the highly-used and convenient [mcp-use](https://mcp-use.com) framework (8k+ GitHub stars).
 
 OpenAPI specs are easy to write and organize your code and have [100s of tools available](https://openapi.tools) such as the [OpenAPI Builder web UI](https://www.apibldr.com).
+
+Try it in the browser at **[api-2-ai.vercel.app](https://api-2-ai.vercel.app/)** — the hosted site lets you design and validate OpenAPI specs visually, browse the docs, and see generated-server examples without installing anything.
 
 ## Features
 
