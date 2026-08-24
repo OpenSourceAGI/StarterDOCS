@@ -1,39 +1,39 @@
-&lt;p align="center"&gt;
-    &lt;img width="350px" src="https://i.imgur.com/OKnr9ns.png" /&gt;
-&lt;h3 align="center"&gt;
-     &lt;a href="https://starterdocs.vtempest.workers.dev"&gt;🎮 Demo&lt;/a&gt;
-    &lt;a href="https://starterdocs.js.org"&gt;📑 Docs&lt;/a&gt;
-    &lt;a href="https://starterdocs.js.org/docs/guides/starter-docs#%EF%B8%8F-installation"&gt;⬇️ Install &lt;/a&gt;
-    &lt;a href="https://v0.app/templates/dashboard-landing-auth-billing-teams-docs-themes-ExDfusFzX6P"&gt; 🎨 v0 Template &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p align="center"&gt;
-     &lt;a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/discussions"&gt;
-     &lt;img alt="GitHub Stars" src="https://img.shields.io/github/stars/OpenSourceAGI/starter-app-dev-tools" /&gt;&lt;/a&gt;
-     &lt;a href="https://discord.gg/SJdBqBz3tV"&gt;
-        &lt;img src="https://img.shields.io/discord/1110227955554209923.svg?label=Chat&amp;logo=Discord&amp;colorB=7289da&amp;style=flat"
-            alt="Join Discord" /&gt;
-    &lt;/a&gt;
-    &lt;a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/discussions"&gt;
-    &lt;img alt="GitHub Discussions"
-        src="https://img.shields.io/github/discussions/OpenSourceAGI/starter-app-dev-tools" /&gt;
-    &lt;/a&gt;
-    &lt;a href="https://codespaces.new/OpenSourceAGI/starter-app-dev-tools"&gt;
-    &lt;img src="https://github.com/codespaces/badge.svg" width="150" height="20" alt="GitHub Codespaces" /&gt;
-    &lt;/a&gt;
-&lt;br /&gt;
-    &lt;a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/pulse" alt="Activity"&gt;
-        &lt;img src="https://img.shields.io/github/commit-activity/m/OpenSourceAGI/starter-app-dev-tools" /&gt;
-    &lt;/a&gt;
-    &lt;img src="https://img.shields.io/github/last-commit/OpenSourceAGI/starter-app-dev-tools.svg" alt="GitHub last commit" /&gt;
-    &lt;a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"&gt;
-        &lt;img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /&gt;
-    &lt;/a&gt;
-    &lt;br /&gt;
-    &lt;img src="https://img.shields.io/badge/Claude-D97757?logo=claude&amp;logoColor=fff" alt="Claude AI"&gt; &lt;img src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&amp;logoColor=white" alt="Cloudflare"&gt; &lt;img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&amp;logoColor=fff" alt="shadcn/ui"&gt; &lt;img src="https://img.shields.io/badge/Next.js-black" alt="Next.js" /&gt;
-    &lt;a href="https://better-auth.com/docs/introduction" target="_blank"&gt;&lt;img src="https://i.imgur.com/eaGdjBq.png" alt="better-auth" /&gt;&lt;/a&gt;
-&lt;/p&gt;
+<p align="center">
+    <img width="350px" src="https://i.imgur.com/OKnr9ns.png" />
+<h3 align="center">
+     <a href="https://starterdocs.vtempest.workers.dev">🎮 Demo</a>
+    <a href="https://starterdocs.js.org">📑 Docs</a>
+    <a href="https://starterdocs.js.org/docs/guides/starter-docs#%EF%B8%8F-installation">⬇️ Install </a>
+    <a href="https://v0.app/templates/dashboard-landing-auth-billing-teams-docs-themes-ExDfusFzX6P"> 🎨 v0 Template </a>
+</h3>
+<p align="center">
+     <a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/discussions">
+     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/OpenSourceAGI/starter-app-dev-tools" /></a>
+     <a href="https://discord.gg/SJdBqBz3tV">
+        <img src="https://img.shields.io/discord/1110227955554209923.svg?label=Chat&logo=Discord&colorB=7289da&style=flat"
+            alt="Join Discord" />
+    </a>
+    <a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/discussions">
+    <img alt="GitHub Discussions"
+        src="https://img.shields.io/github/discussions/OpenSourceAGI/starter-app-dev-tools" />
+    </a>
+    <a href="https://codespaces.new/OpenSourceAGI/starter-app-dev-tools">
+    <img src="https://github.com/codespaces/badge.svg" width="150" height="20" alt="GitHub Codespaces" />
+    </a>
+<br />
+    <a href="https://github.com/OpenSourceAGI/starter-app-dev-tools/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/OpenSourceAGI/starter-app-dev-tools" />
+    </a>
+    <img src="https://img.shields.io/github/last-commit/OpenSourceAGI/starter-app-dev-tools.svg" alt="GitHub last commit" />
+    <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+    </a>
+    <br />
+    <img src="https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff" alt="Claude AI"> <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white" alt="Cloudflare"> <img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff" alt="shadcn/ui"> <img src="https://img.shields.io/badge/Next.js-black" alt="Next.js" />
+    <a href="https://better-auth.com/docs/introduction" target="_blank"><img src="https://i.imgur.com/eaGdjBq.png" alt="better-auth" /></a>
+</p>
 
-### 📦 Packages &amp; Apps
+### 📦 Packages & Apps
 
 **[docs](apps/docs/)** - Documentation site built with Next.js featuring AI chat, full-text search, and auto-generated API reference from TypeScript types and OpenAPI specs. Serves as the central hub for all starter template documentation.
 `bun dev` · `npm run dev`
