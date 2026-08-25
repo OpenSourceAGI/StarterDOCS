@@ -80,21 +80,20 @@
 `npx open-ready <command>` · `npm install -g open-ready`
 
 **[react-native-app-buttons](packages/react-native-app-buttons/)** - React badge components for 8 app store and platform download links: iOS App Store, Google Play, Chrome Web Store, Mac App Store, Microsoft Store, Linux, and Snap Store. Detects the user's OS and highlights the matching button with a golden glow; generates native deep links (`itms-apps://`, `market://`, `ms-windows-store://`) so the store app opens directly. Badges ship as bundled assets — no CDN required.
-<a href="https://www.npmjs.com/package/react-native-app-buttons"><img src="https://img.shields.io/npm/dm/react-native-app-buttons.svg" alt="Monthly Downloads"></a>
+<a href="https://www.npmjs.com/package/react-app-store-buttons"><img src="https://img.shields.io/npm/dm/react-app-store-buttons.svg" alt="Monthly Downloads"></a>
 `npm install react-native-app-buttons` · `bun add react-native-app-buttons`
 
 **[server-shell-setup](packages/server-shell-setup/)** - One-command bootstrap for a modern dev environment: installs fish, nvim, nushell, bun, node, helix, starship, docker, and more. Offers an interactive menu or a fully unattended `all` mode. Includes fish aliases for `service_manager`, `killport`, and `search`. Supports Arch, Ubuntu/Debian, Android (Termux), macOS, Fedora, and Alpine.
 `wget -qO- tinyurl.com/shellsetup | bash`
 
 **[shadcn-theme-menu](packages/shadcn-theme-menu/)** - Drop-in theme switcher for shadcn/ui with 24+ color themes, dark/light/system mode toggle, and smooth animations. Includes `ThemeToggle`, `ThemeDropdown`, and `CinematicThemeSwitcher` components. Wrap your app with `ThemeProvider` and import the bundled CSS — no extra config required.
-<a href="https://www.npmjs.com/package/shadcn-themes"><img src="https://img.shields.io/npm/dm/shadcn-themes.svg" alt="Monthly Downloads"></a>
+<a href="https://www.npmjs.com/package/shadcn-theme-menu"><img src="https://img.shields.io/npm/dm/shadcn-theme-menu.svg" alt="Monthly Downloads"></a>
 `npm install shadcn-themes` · `bun add shadcn-themes`
 
 **[verify-phone-sms](packages/verify-phone-sms/)** - SMS phone verification API server built with Hono on Cloudflare Workers, backed by AWS SNS. Sends one-time codes, blocks VoIP numbers, enforces API-key authentication, applies rate limiting, and exposes auto-generated OpenAPI documentation. Includes health-check endpoints and CORS/security-header middleware.
 `bun deploy` · `wrangler deploy`
 
 **[web2mobile-wrapper](packages/web2mobile-wrapper/)** - Transform any website URL into a native mobile app wrapper for iOS and Android. No coding required — generates a React Native project pre-configured with your URL, push notifications, and app store metadata. Boosts discoverability via App Store and Google Play presence.
-<a href="https://www.npmjs.com/package/create-mobile-wrapper"><img src="https://img.shields.io/npm/dm/create-mobile-wrapper.svg" alt="Monthly Downloads"></a>
 `npx create-mobile-wrapper` · `npm install -g create-mobile-wrapper`
 
 ### Starter Templates
