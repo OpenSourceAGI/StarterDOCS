@@ -45,39 +45,49 @@
 `bun deploy` · `wrangler deploy`
 
 **[about-system-info](packages/about-system-info/)** - Cross-platform CLI that prints CPU, memory, disk, uptime, public IP, ISP, and installed tools as a compact emoji line. Add to your shell config (`config.fish`, `.zshrc`) for an instant system snapshot on every terminal launch. Supports Windows, macOS, and Linux.
+<a href="https://www.npmjs.com/package/about-system"><img src="https://img.shields.io/npm/dm/about-system.svg" alt="Monthly Downloads"></a>
 `npx about-system` · `npm install -g about-system`
 
 **[api2ai-mcp-generator](packages/api2ai-mcp-generator/)** - Generate production-ready MCP servers from any OpenAPI spec using the mcp-use framework (8k+ GitHub stars). Supports HTTP, SSE, and Streamable HTTP transports; includes a built-in inspector UI at `/inspector`, Zod schema validation, bearer/API-key auth, and Docker/PM2/Kubernetes deployment configs.
+<a href="https://www.npmjs.com/package/api2ai"><img src="https://img.shields.io/npm/dm/api2ai.svg" alt="Monthly Downloads"></a>
 `npx api2ai <openapi-spec-url>` · `npm install -g api2ai`
 
 **[cloudflare-to-claude-fix](packages/cloudflare-to-claude-fix/)** - Cloudflare Workers Queue consumer that fires a Claude Code routine automatically whenever a Workers build fails. Subscribes to Cloudflare build events via a Workers Queue and dead-letter queue, then triggers an AI-powered fix routine. Requires Workers Paid plan and Claude Pro.
 `bun deploy` · `wrangler deploy`
 
 **[create-cloud-db](packages/create-cloud-db/)** - Interactive CLI that creates a Turso edge database and writes `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` directly into your `.env` file. Handles Turso login, database creation, token generation, and env-file patching in one command.
+<a href="https://www.npmjs.com/package/create-cloud-db"><img src="https://img.shields.io/npm/dm/create-cloud-db.svg" alt="Monthly Downloads"></a>
 `npx create-cloud-db [db-name]` · `npm install -g create-cloud-db`
 
 **[create-starter-app](packages/create-starter-app/)** - Interactive CLI to scaffold a starter app from curated templates. Prompts for framework, auth provider, database, and UI library, then downloads and configures the right template.
+<a href="https://www.npmjs.com/package/create-starter-app"><img src="https://img.shields.io/npm/dm/create-starter-app.svg" alt="Monthly Downloads"></a>
 `npx create-starter-app` · `bun create starter-app`
 
 **[export-svg-icons-typescript](packages/export-svg-icons-typescript/)** - Convert a folder of SVG icons into a color-customizable, tree-shakable TypeScript `index.ts` that works with any component framework. Exports all icons as named functions for tree shaking, includes JSDoc tooltip previews of each icon, and supports runtime color, size, and dimension changes. Returns SVG strings or IMG tags with inline SVG sources.
+<a href="https://www.npmjs.com/package/export-svg-typescript"><img src="https://img.shields.io/npm/dm/export-svg-typescript.svg" alt="Monthly Downloads"></a>
 `npx export-svg-typescript -i ./src/icons` · `npm install -g export-svg-typescript`
 
 **[git0-repo-downloader](packages/git0-repo-downloader/)** - CLI to search GitHub repositories by keyword, download source archives or platform-matched release binaries, install dependencies, and open the project in your editor. Short aliases `g` and `gg` for speed.
+<a href="https://www.npmjs.com/package/git0"><img src="https://img.shields.io/npm/dm/git0.svg" alt="Monthly Downloads"></a>
 `npx git0 <repo>` · `npm install -g git0`
 
 **[manage-storage](packages/manage-storage/)** - Unified storage API for AWS S3, Cloudflare R2, and Backblaze B2 built on AWS SDK v3. Auto-detects the configured provider from environment variables. Single function interface for upload, download, delete, and list — returns data directly with no filesystem dependency, ideal for serverless and edge environments.
+<a href="https://www.npmjs.com/package/manage-storage"><img src="https://img.shields.io/npm/dm/manage-storage.svg" alt="Monthly Downloads"></a>
 `npm install manage-storage` · `bun add manage-storage`
 
 **[open-when-ready](packages/open-when-ready/)** - Smart dev server wrapper for Next.js, Vite, or any CLI tool. Watches server output, auto-opens the browser when a ready signal is detected, and on error extracts context and launches your AI assistant (Perplexity, ChatGPT, or custom URL) with a pre-filled prompt.
+<a href="https://www.npmjs.com/package/open-ready"><img src="https://img.shields.io/npm/dm/open-ready.svg" alt="Monthly Downloads"></a>
 `npx open-ready <command>` · `npm install -g open-ready`
 
 **[react-native-app-buttons](packages/react-native-app-buttons/)** - React badge components for 8 app store and platform download links: iOS App Store, Google Play, Chrome Web Store, Mac App Store, Microsoft Store, Linux, and Snap Store. Detects the user's OS and highlights the matching button with a golden glow; generates native deep links (`itms-apps://`, `market://`, `ms-windows-store://`) so the store app opens directly. Badges ship as bundled assets — no CDN required.
+<a href="https://www.npmjs.com/package/react-app-store-buttons"><img src="https://img.shields.io/npm/dm/react-app-store-buttons.svg" alt="Monthly Downloads"></a>
 `npm install react-native-app-buttons` · `bun add react-native-app-buttons`
 
 **[server-shell-setup](packages/server-shell-setup/)** - One-command bootstrap for a modern dev environment: installs fish, nvim, nushell, bun, node, helix, starship, docker, and more. Offers an interactive menu or a fully unattended `all` mode. Includes fish aliases for `service_manager`, `killport`, and `search`. Supports Arch, Ubuntu/Debian, Android (Termux), macOS, Fedora, and Alpine.
 `wget -qO- tinyurl.com/shellsetup | bash`
 
 **[shadcn-theme-menu](packages/shadcn-theme-menu/)** - Drop-in theme switcher for shadcn/ui with 24+ color themes, dark/light/system mode toggle, and smooth animations. Includes `ThemeToggle`, `ThemeDropdown`, and `CinematicThemeSwitcher` components. Wrap your app with `ThemeProvider` and import the bundled CSS — no extra config required.
+<a href="https://www.npmjs.com/package/shadcn-theme-menu"><img src="https://img.shields.io/npm/dm/shadcn-theme-menu.svg" alt="Monthly Downloads"></a>
 `npm install shadcn-themes` · `bun add shadcn-themes`
 
 **[verify-phone-sms](packages/verify-phone-sms/)** - SMS phone verification API server built with Hono on Cloudflare Workers, backed by AWS SNS. Sends one-time codes, blocks VoIP numbers, enforces API-key authentication, applies rate limiting, and exposes auto-generated OpenAPI documentation. Includes health-check endpoints and CORS/security-header middleware.
