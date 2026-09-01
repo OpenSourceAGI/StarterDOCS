@@ -1,0 +1,15 @@
+# Changelog
+
+A month-by-month summary of this repository's history, generated from `git log`.
+
+## August 2026
+
+Documentation and cross-platform polish. Added **macOS support** for hardware and system-info functions (memory, disk, and CPU retrieval), replacing an obsolete verification script, and gave the info-block renderer character-filled, mid-block-wrapping lines (#41). Shipped **`feat(skills)`: an agent skill for every package** (#40) — one skill per package under `skills/`, each with YAML-frontmatter trigger descriptions, setup steps, recipes, and a troubleshooting table, with larger packages (`about-system`, `manage-storage`, `code-tree-graph`, `verify-phone-sms`, `api2ai`) also gaining an exhaustive `API.md`. The **FumaDocs template** picked up new API routes for documentation search and LLM text generation, refreshed CSS variables, improved search functionality, and had its obsolete middleware removed. `get-node.sh` was refactored (#42), a `curl` install one-liner was added to the README, `server-shell-setup`'s README was expanded with a full command reference (#43), the `api2ai` docs were linked to their hosted site (#44), and npm monthly-download badges were added to the package listings (#45, #46). Disk-size reporting and updated repository URLs rounded out the package.json changes, with the usual automated version bumps running throughout the month.
+
+## July 2026
+
+Heavy infrastructure and release-plumbing month. Fixed npm publish/provenance failures in **code-tree-graph** and updated repo URLs after the project moved to `starter-app-dev-tools` (#36, #37), alongside Vite config and import-path fixes and a merge-conflict resolution. The **server-shell-setup** installer was overhauled — corrected URLs, improved Node/Bun setup, and added password management (#33) — and **vscode-cloud**'s container image was updated to install Bun alongside Node.js (#34, #35). The Next.js starter template was refactored for readability, had unused files and dependencies stripped, gained MDX components for FumaDocs (Tabs, File, Folder, APIPage) and an "open-when-ready" log, and had benchmark-file handling and Vite copy logic enhanced, including detailed CPU benchmark info added to `SystemInfo`. Project licensing was updated to **PROSPER 1.0.0** with clarified usage rights, the Claude auto-merge workflow was updated, the info-block renderer gained character-filled wrapping (#38), and this file's own monthly-changelog format was first introduced (#32). Automated `chore: bump package versions` commits ran after most merges.
+
+## June 2026
+
+The visible history for this repository begins here: a large merge brought in the full existing project — CI workflows (`npm-publish`, `auto-merge-claude`), license and README, the **Cloud Computer Control Panel** app, and the full set of starter packages — establishing the codebase this changelog now tracks. Follow-up work in the month was light polish: a README addition for `react-app-store-buttons` and a simplification of the default-shell change command in `server-shell-setup`'s `install-shell.sh`, interspersed with automated package version bumps.
